@@ -1,14 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Montserrat", sans-serif;
     text-align: left;
-    font-family: "Trebuchet MS";
     font-weight: bold;
-    font-size: 1.026rem;
-}
-
-button {
-    font-family: "calibri";
 }
 
 html {
@@ -17,7 +12,7 @@ html {
 }
 
 body {
-    background-color: #4b8dc0f8
+    background-color: #2f74a8
 }
 
 #logo{
@@ -68,7 +63,7 @@ h2:hover {
   }
 
   a:hover {
-    color: rgb(206, 88, 88);
+    color: white;
     transition: 0.5s;
   }
 
@@ -114,14 +109,16 @@ body, html {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: orange;
+    padding: 10px 20px;
+    color: rgb(4, 97, 97);
     border: none;
-    padding: 10px;
+    border-radius: 5px;
     cursor: pointer;
-    border-radius: 10px;
-  }  
+    font-size: 16px;
+    transition: .3s;
+  }
   
-  #scrollToTopBtn:hover {
+  #scrollTopBtn:hover {
     color: aqua;
     transition: 0.4s;
   }
@@ -135,7 +132,7 @@ body, html {
 }
 
 button:hover {
-    background-color: rgba(117, 113, 111, 0.616);
+    background-color: rgb(255, 136, 0);
     transition: 0,1s ease;
 }
 #botones > button {
@@ -152,7 +149,8 @@ height: 100px;
   }
 
   
-  .boton:hover, .boton.seleccionado {
+  .boton:hover,
+  .boton.seleccionado {
     background-color: #0056b3;
   }
 
@@ -274,6 +272,10 @@ position: relative;
     scroll-behavior: smooth;
 }
 
+*{
+    font-family: "calibri";
+}
+
 h1 {
   font-size: 32px;
   font-weight: bold;
@@ -294,9 +296,8 @@ article {
 
 section {
   width: 12em;
+  display: flex;
   flex-direction: column;
-  display: grid;
-    place-content: center;
 }
 
 section > h2 {
@@ -305,7 +306,7 @@ section > h2 {
 
 .content {
   display: flex;
-  flex-direction: unset;
+  flex-direction: column;
   gap: 2em;
 }
 
