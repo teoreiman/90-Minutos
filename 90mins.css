@@ -294,8 +294,9 @@ article {
 
 section {
   width: 12em;
-  display: flex;
   flex-direction: column;
+  display: grid;
+    place-content: center;
 }
 
 section > h2 {
