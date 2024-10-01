@@ -1,7 +1,7 @@
 function mostrarPantalla(seccion) {
   var pantallas = document.getElementsByClassName("pantalla");
   for (var i = 0; i < pantallas.length; i++) {
-    pantallas[i].style.display = "none";
+    pantallas[i].style.display
   }
 
   var pantallaSeleccionada = document.getElementById(seccion);
@@ -41,9 +41,15 @@ window.onscroll = function() {
 
 let main = document.getElementById("jugadoresInfo")
 scrollToTopBtn.addEventListener("click", () => {
-  console.log("hola")
   main.scrollTo({top: 0, behavior: "smooth"});
 })
+
+document.getElementById("scrollToTopBtn").addEventListener("click", function() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
 
 element = document.querySelectorAll(main);
 
@@ -820,8 +826,7 @@ function showPlayerInfo(playerName) {
 <ul>
   <li>Campeón del Mundial 2014 con Alemania</li>
   <li>Múltiples títulos de la Champions League con el Real Madrid</li>
-</ul>`,
-  };
+</ul>`, };
 
   const modal = document.getElementById("playerModal");
   const modalContent = document.getElementById("playerInfo");
@@ -837,7 +842,6 @@ function showPlayerInfo(playerName) {
 
 function closeModal() {
   const modal = document.getElementById("playerModal");
-  modal.style.display = "none";
 }
 
 document.querySelectorAll(".content div").forEach((player) => {
@@ -849,6 +853,5 @@ document.querySelectorAll(".content div").forEach((player) => {
 window.onclick = function (event) {
   const modal = document.getElementById("playerModal");
   if (event.target == modal) {
-    modal.style.display = "none";
   }
 };

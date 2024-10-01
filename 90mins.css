@@ -286,6 +286,10 @@ h1 {
     color: orange;
 }
 
+#playerInfo {
+    display: flex;
+}
+
 article {
   display: flex;
   margin-inline: 6em;
