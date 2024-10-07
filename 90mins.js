@@ -52,8 +52,6 @@ document.getElementById("scrollToTopBtn").addEventListener("click", function() {
   });
 });
 
-element = document.querySelectorAll(main);
-
 document.querySelectorAll("button[data-target]").forEach((button) => {
   button.addEventListener("click", function () {
     const targetId = this.getAttribute("data-target");
