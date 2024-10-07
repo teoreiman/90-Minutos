@@ -2,6 +2,7 @@ function mostrarPantalla(seccion) {
   var pantallas = document.getElementsByClassName("pantalla");
   for (var i = 0; i < pantallas.length; i++) {
     pantallas[i].style.display
+    scrollToTopBtn()
   }
 
   var pantallaSeleccionada = document.getElementById(seccion);
