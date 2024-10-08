@@ -174,72 +174,6 @@ height: 100px;
   .boton.seleccionado {
     background-color: #0056b3;
     transform: scale(1.1);
-  }
-
-#feed-contenedor {
-    background-color: rgb(189,189,189);
-    margin: 5rem 0;
-    width: 100%;
-    overflow: hidden;
-}
-
-.main-galery {
-    width: 100%;
-    display: flex;
-    align-items: left;
-    position: relative;
-}
-
-.chevron span {
-    display: flex;
-    align-items: left;
-    position: absolute;
-    z-index: 1;
-    font-size: 2rem;
-    color: rgb(157, 217, 238);
-    width: 4.3rem;
-    height: 4.7rem;
-    background-color: rgba(23, 23, 23, 0.9);
-    border-radius: 100%;
-    cursor: pointer;
-}
-
-.chevron span:hover {
-    background-color: rgba(23,23,23,0.6);
-}
-
-.chevron #prev{
-    padding: right .5rem;
-    justify-content: flex-end;
-    left: -1.7rem;
-}
-
-.chevron #next{
-    padding: right .5rem;
-    justify-content: flex-start;
-    right: -1.7rem;
-}
-
-.galery{
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.image{
-min-width: 20%;
-height: 237px;
-position: relative;
-}
-
-.image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
-}
-
-.image:hover .opacity-hover{
-    width: 100%;
 }
 
 .caption{
@@ -273,15 +207,6 @@ position: relative;
     background-color: rgba(2,2,2,0.8);
 }
 
-.contenedor-galery{
-    width: 100%;
-    overflow: hidden;
-    scroll-behavior: smooth;
-}
-
-*{
-    font-family: "calibri";
-}
 
 h1 {
   font-size: 32px;
@@ -291,10 +216,6 @@ h1 {
 
 .jugadores:hover {
     color: orange;
-}
-
-#playerInfo {
-    display: flex;
 }
 
 article {
@@ -325,7 +246,7 @@ section > h2 {
   height: 16em;
   background: #d9d9d9;
 
-  .image {
+.image {
     width: 100%;
     height: 80%;
     display: flex;

@@ -851,6 +851,6 @@ document.querySelectorAll(".content div").forEach((player) => {
 
 window.onclick = function (event) {
   const modal = document.getElementById("playerModal");
-  if (event.target == modal) {
+  if (event.target = modal) {
   }
 };
