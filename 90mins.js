@@ -4,7 +4,6 @@ function mostrarPantalla(seccion) {
     pantallas[i].style.display
     scrollToTopBtn()
   }
-
   var pantallaSeleccionada = document.getElementById(seccion);
   if (pantallaSeleccionada) {
     scrollToTop();
@@ -30,9 +29,7 @@ function toggleStickyNavbar() {
   }
 }
 
-
 let scrollToTopBtn = document.getElementById("scrollToTopBtn");
-
 
 window.onscroll = function() {
   if (document.body.scrollToTopBtn > 20 || document.documentElement.scrollToTopBtn > 20) {
