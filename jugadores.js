@@ -1,7 +1,6 @@
 function showPlayerInfo(playerName) {
   const playerInfo = {
     "Manuel Neuer": `<h2>Manuel Neuer: El Guardián del Bayern Múnich y de Alemania</h2>
-
 <p>
   Manuel Neuer es considerado uno de los mejores porteros de la historia del fútbol, reconocido por su estilo de juego moderno como "portero-líbero". No solo se destaca por sus habilidades bajo los palos, sino también por su capacidad para influir en la construcción de jugadas desde el fondo.
 </p>
@@ -113,7 +112,7 @@ function showPlayerInfo(playerName) {
   <li>Múltiples títulos de la Champions League con el Barcelona</li>
 </ul>`,
 
-"Juan Román Riquelme": `<h2>Juan Román Riquelme: El Cerebro del Fútbol Argentino</h2>
+    "Juan Román Riquelme": `<h2>Juan Román Riquelme: El Cerebro del Fútbol Argentino</h2>
 <p>
   Riquelme es uno de los jugadores más talentosos y creativos de Argentina, famoso por su capacidad de controlar el ritmo del partido y sus pases precisos.
 </p>
@@ -132,7 +131,28 @@ function showPlayerInfo(playerName) {
   <li>Finalista de la Champions League con el Villarreal</li>
 </ul>`,
 
-"Cristiano Ronaldo": `<h2>Cristiano Ronaldo: El Goleador Implacable</h2>
+"Marco Van Basten": `<h2>Marco van Basten: El Elegante Goleador</h2>
+<p>
+  Marco van Basten es uno de los mejores delanteros de todos los tiempos, conocido por su elegancia, técnica y capacidad goleadora. Su combinación de habilidad técnica y poder físico lo convirtió en una amenaza constante para los defensores.
+</p>
+<h3>Características Destacadas:</h3>
+<ul>
+  <li><strong>Finalización impecable:</strong> Van Basten tenía una capacidad extraordinaria para marcar goles desde cualquier posición, ya sea con disparos potentes o toques sutiles. 
+    <a href="https://www.youtube.com/watch?v=SL9aBgoVlHo" target="_blank">Ver sus mejores goles</a>
+  </li>
+  <li><strong>Juego aéreo:</strong> Su altura y precisión en el cabezazo lo hacían letal en balones aéreos. 
+    <a href="https://www.youtube.com/watch?v=Xpj4KzqslF4" target="_blank">Ver sus cabezazos</a>
+  </li>
+</ul>
+<h3>Logros mas relevantes</h3>
+<ul>
+  <li>Campeón de la Eurocopa 1988 con los Países Bajos</li>
+  <li>3 veces ganador del Balón de Oro</li>
+  <li>Múltiples títulos con el AC Milan, incluyendo la Champions League</li>
+</ul>
+`,
+
+    "Cristiano Ronaldo": `<h2>Cristiano Ronaldo: El Goleador Implacable</h2>
 <p>
   Cristiano Ronaldo es uno de los máximos goleadores de todos los tiempos, famoso por su velocidad, fuerza física y precisión en los disparos.
 </p>
@@ -150,9 +170,10 @@ function showPlayerInfo(playerName) {
   <li>Campeón de la Eurocopa 2016 con Portugal</li>
   <li>Ganador de 5 Balones de Oro</li>
   <li>5 Champions Leagues con el Real Madrid</li>
+  <li>Maximo goleador de la historia del futbol (910 goles, aprox)</li>
 </ul>`,
 
-"Sergio Ramos": `<h2>Sergio Ramos: El Defensor Goleador</h2>
+    "Sergio Ramos": `<h2>Sergio Ramos: El Defensor Goleador</h2>
 <p>
   Sergio Ramos es conocido por ser uno de los mejores defensores centrales del mundo, además de ser una amenaza ofensiva en los balones parados.
 </p>
@@ -171,7 +192,7 @@ function showPlayerInfo(playerName) {
   <li>Campeón del Mundial 2010 con España</li>
 </ul>`,
 
-"Ronaldo Nazario": `<h2>Ronaldo Nazario (R9): El Fenómeno</h2>
+    "Ronaldo Nazario": `<h2>Ronaldo Nazario (R9): El Fenómeno</h2>
 <p>
   Ronaldo, conocido como "El Fenómeno", es uno de los delanteros más talentosos y letales de la historia del fútbol.
 </p>
@@ -190,7 +211,7 @@ function showPlayerInfo(playerName) {
   <li>Balón de Oro en dos ocasiones</li>
 </ul>`,
 
-"Pelé": `<h2>Pelé: El Rey del Fútbol</h2>
+    Pelé: `<h2>Pelé: El Rey del Fútbol</h2>
 <p>
   Pelé es ampliamente considerado como uno de los mejores jugadores de todos los tiempos, destacando por su habilidad técnica y su capacidad goleadora.
 </p>
@@ -209,7 +230,7 @@ function showPlayerInfo(playerName) {
   <li>Más de 1000 goles en su carrera</li>
 </ul>`,
 
-"Ronaldinho": `<h2>Ronaldinho: El Mago del Fútbol</h2>
+    Ronaldinho: `<h2>Ronaldinho: El Mago del Fútbol</h2>
 <p>
   Ronaldinho es uno de los jugadores más creativos y carismáticos que el fútbol haya visto, conocido por su estilo alegre y su increíble técnica.
 </p>
@@ -228,7 +249,7 @@ function showPlayerInfo(playerName) {
   <li>Balón de Oro en 2005</li>
 </ul>`,
 
-"Neymar Jr": `<h2>Neymar Jr: La Magia Brasileña</h2>
+    "Neymar Jr": `<h2>Neymar Jr: La Magia Brasileña</h2>
 <p>
   Neymar es famoso por sus habilidades para el regate y su creatividad en el campo.
 </p>
@@ -244,7 +265,7 @@ function showPlayerInfo(playerName) {
   <li>UEFA Champions League con el FC Barcelona en 2015</li>
 </ul>`,
 
-"Kylian Mbappé": `<h2>Kylian Mbappé: La Joya del Fútbol Francés</h2>
+    "Kylian Mbappé": `<h2>Kylian Mbappé: La Joya del Fútbol Francés</h2>
 <p>
   Mbappé es una de las jóvenes estrellas más brillantes del fútbol mundial, destacando por su velocidad y capacidad de definición.
 </p>
@@ -259,7 +280,7 @@ function showPlayerInfo(playerName) {
   <li>Campeón del Mundo 2018 con Francia con 18 años</li>
 </ul>`,
 
-"Zinedine Zidane": `<h2>Zinedine Zidane: El Mago Francés</h2>
+    "Zinedine Zidane": `<h2>Zinedine Zidane: El Mago Francés</h2>
 <p>
   Zidane es uno de los jugadores más elegantes que el fútbol haya visto, conocido por su control del balón y su visión del juego.
 </p>
@@ -274,7 +295,7 @@ function showPlayerInfo(playerName) {
   <li>Campeón del Mundial 1998 con Francia</li>
 </ul>`,
 
-"Paolo Maldini": `<h2>Paolo Maldini: El Defensor Legendario</h2>
+    "Paolo Maldini": `<h2>Paolo Maldini: El Defensor Legendario</h2>
 <p>
   Maldini es conocido como uno de los mejores defensores de todos los tiempos, famoso por su inteligencia táctica y capacidad de anticipación.
 </p>
@@ -289,7 +310,7 @@ function showPlayerInfo(playerName) {
   <li>Múltiples títulos de la Serie A con el AC Milan</li>
 </ul>`,
 
-"Michel Platini": `<h2>Michel Platini: El Arquitecto del Fútbol Francés</h2>
+    "Michel Platini": `<h2>Michel Platini: El Arquitecto del Fútbol Francés</h2>
 <p>
   Platini es famoso por su precisión en los pases y su capacidad para marcar goles importantes.
 </p>
@@ -304,7 +325,7 @@ function showPlayerInfo(playerName) {
   <li>Campeón de la Eurocopa 1984 con Francia</li>
 </ul>`,
 
-"Diego Maradona": `<h2>Diego Maradona: El Pibe de Oro</h2>
+    "Diego Maradona": `<h2>Diego Maradona: El Pibe de Oro</h2>
 <p>
   Diego Maradona es ampliamente considerado uno de los mejores jugadores en la historia del fútbol, famoso por su habilidad extraordinaria y su impacto en el Mundial de 1986.
 </p>
@@ -320,7 +341,7 @@ function showPlayerInfo(playerName) {
   <li>Ícono del Napoli, ganando múltiples títulos de la Serie A</li>
 </ul>`,
 
-"Thiabut Courtois": `<h2>Thibaut Courtois: El Gigante Belga</h2>
+    "Thiabut Courtois": `<h2>Thibaut Courtois: El Gigante Belga</h2>
 <p>
   Courtois es uno de los mejores porteros del fútbol actual, conocido por su envergadura y reflejos rápidos bajo los tres palos.
 </p>
@@ -336,7 +357,7 @@ function showPlayerInfo(playerName) {
   <li>Guante de Oro en la Copa del Mundo 2018</li>
 </ul>`,
 
-"Victor Valdes": `<h2>Víctor Valdés: El Guardián de la Era Dorada del Barcelona</h2>
+    "Victor Valdes": `<h2>Víctor Valdés: El Guardián de la Era Dorada del Barcelona</h2>
 <p>
   Víctor Valdés fue el portero del legendario Barcelona de Guardiola, conocido por su consistencia y seguridad en la portería.
 </p>
@@ -351,7 +372,7 @@ function showPlayerInfo(playerName) {
   <li>3 veces campeón de la Champions League con el Barcelona</li>
 </ul>`,
 
-"Lev Yashin": `<h2>Lev Yashin: La Araña Negra</h2>
+    "Lev Yashin": `<h2>Lev Yashin: La Araña Negra</h2>
 <p>
   Yashin es considerado uno de los mejores porteros de todos los tiempos y es el único guardameta en ganar el Balón de Oro.
 </p>
@@ -366,7 +387,7 @@ function showPlayerInfo(playerName) {
   <li>Balón de Oro en 1963</li>
 </ul>`,
 
-"Petr Cech": `<h2>Petr Čech: El Muro Checo</h2>
+    "Petr Cech": `<h2>Petr Čech: El Muro Checo</h2>
 <p>
   Petr Čech es conocido por su consistencia y longevidad en el fútbol de élite, particularmente con el Chelsea.
 </p>
@@ -381,7 +402,7 @@ function showPlayerInfo(playerName) {
   <li>Campeón de la Champions League con el Chelsea en 2012</li>
 </ul>`,
 
-"Carles Puyol": `<h2>Carles Puyol: El Guerrero del Barcelona</h2>
+    "Carles Puyol": `<h2>Carles Puyol: El Guerrero del Barcelona</h2>
 <p>
   Puyol es conocido por su liderazgo y entrega total en cada partido, siendo un defensor central clave en la historia del Barcelona.
 </p>
@@ -397,7 +418,7 @@ function showPlayerInfo(playerName) {
   <li>3 veces campeón de la Champions League con el Barcelona</li>
 </ul>`,
 
-"Roberto Carlos": `<h2>Roberto Carlos: El Lateral de los Misiles</h2>
+    "Roberto Carlos": `<h2>Roberto Carlos: El Lateral de los Misiles</h2>
 <p>
   Roberto Carlos es recordado por sus potentes tiros libres y su velocidad jugando como lateral izquierdo.
 </p>
@@ -413,7 +434,7 @@ function showPlayerInfo(playerName) {
   <li>Múltiples títulos con el Real Madrid</li>
 </ul>`,
 
-"Johan Cruyff": `<h2>Johan Cruyff: El Arquitecto del Fútbol Total</h2>
+    "Johan Cruyff": `<h2>Johan Cruyff: El Arquitecto del Fútbol Total</h2>
 <p>
   Cruyff revolucionó el fútbol con su concepto de "fútbol total", tanto como jugador como entrenador, influyendo profundamente en el juego moderno.
 </p>
@@ -428,7 +449,7 @@ function showPlayerInfo(playerName) {
   <li>3 veces ganador del Balón de Oro</li>
 </ul>`,
 
-"Dani Alves":`<h2>Dani Alves: El Lateral Más Laureado</h2>
+    "Dani Alves": `<h2>Dani Alves: El Lateral Más Laureado</h2>
 <p>
   Dani Alves es el jugador más laureado de la historia del fútbol, famoso por su habilidad ofensiva y su capacidad de asistir desde el lateral derecho.
 </p>
@@ -443,7 +464,7 @@ function showPlayerInfo(playerName) {
   <li>Múltiples títulos de la Champions League con el Barcelona</li>
 </ul>`,
 
-"Cafú": `<h2>Cafu: El Rey de los Laterales</h2>
+    Cafú: `<h2>Cafu: El Rey de los Laterales</h2>
 <p>
   Cafu es uno de los mejores laterales derechos de todos los tiempos, conocido por su incansable energía y su capacidad tanto ofensiva como defensiva.
 </p>
@@ -458,7 +479,7 @@ function showPlayerInfo(playerName) {
   <li>Dos veces campeón del Mundial con Brasil (1994, 2002)</li>
 </ul>`,
 
-"Virgil Van Dijk": `<h2>Virgil Van Dijk: El Roca de Anfield</h2>
+    "Virgil Van Dijk": `<h2>Virgil Van Dijk: El Roca de Anfield</h2>
 <p>
   Van Dijk es uno de los defensores centrales más dominantes del fútbol moderno, conocido por su físico imponente y su lectura del juego.
 </p>
@@ -473,7 +494,7 @@ function showPlayerInfo(playerName) {
   <li>Campeón de la Champions League con el Liverpool</li>
 </ul>`,
 
-"Gerard Piqué": `<h2>Gerard Piqué: El Defensor Catalán</h2>
+    "Gerard Piqué": `<h2>Gerard Piqué: El Defensor Catalán</h2>
 <p>
   Piqué ha sido una figura clave en la defensa del Barcelona durante más de una década, combinando su inteligencia defensiva con una gran habilidad para jugar el balón.
 </p>
@@ -489,7 +510,7 @@ function showPlayerInfo(playerName) {
   <li>Multiples titulos con el Barcelona</li>
 </ul>`,
 
-"Fabio Cannavaro": `<h2>Fabio Cannavaro: El General Italiano</h2>
+    "Fabio Cannavaro": `<h2>Fabio Cannavaro: El General Italiano</h2>
 <p>
   Cannavaro es uno de los defensores más grandes de la historia, siendo uno de los pocos en ganar el Balón de Oro por su actuación defensiva.
 </p>
@@ -505,7 +526,7 @@ function showPlayerInfo(playerName) {
   <li>Balón de Oro en 2006</li>
 </ul>`,
 
-"Philipp Lahm": `<h2>Philipp Lahm: El Capitán Silencioso</h2>
+    "Philipp Lahm": `<h2>Philipp Lahm: El Capitán Silencioso</h2>
 <p>
   Lahm fue uno de los jugadores más inteligentes del fútbol, destacando tanto como lateral derecho como centrocampista defensivo.
 </p>
@@ -520,7 +541,7 @@ function showPlayerInfo(playerName) {
   <li>Campeón del Mundial 2014 con Alemania</li>
 </ul>`,
 
-"Marcelo": `<h2>Marcelo: El Lateral Ofensivo</h2>
+    Marcelo: `<h2>Marcelo: El Lateral Ofensivo</h2>
 <p>
   Marcelo es conocido por su habilidad técnica y su capacidad para crear oportunidades ofensivas desde el lateral izquierdo.
 </p>
@@ -535,7 +556,7 @@ function showPlayerInfo(playerName) {
   <li>Múltiples títulos de la Champions League con el Real Madrid</li>
 </ul>`,
 
-"Franz Beckenbauer": `<h2>Franz Beckenbauer: El Kaiser</h2>
+    "Franz Beckenbauer": `<h2>Franz Beckenbauer: El Kaiser</h2>
 <p>
   Beckenbauer es uno de los mejores defensores de la historia, conocido por inventar el rol de "líbero", controlando tanto la defensa como el ataque.
 </p>
@@ -550,7 +571,7 @@ function showPlayerInfo(playerName) {
   <li>Campeón del Mundo 1974 con Alemania</li>
 </ul>`,
 
-"Thierry Herny": `<h2>Thierry Henry: El Rey de Arsenal</h2>
+    "Thierry Herny": `<h2>Thierry Henry: El Rey de Arsenal</h2>
 <p>
   Henry es uno de los mejores delanteros de la historia, famoso por su velocidad, regate y capacidad para definir en cualquier situación.
 </p>
@@ -565,7 +586,7 @@ function showPlayerInfo(playerName) {
   <li>Campeón del Mundial 1998 con Francia</li>
 </ul>`,
 
-"Alfredo Di Stefano": `<h2>Alfredo Di Stéfano: La Saeta Rubia</h2>
+    "Alfredo Di Stefano": `<h2>Alfredo Di Stéfano: La Saeta Rubia</h2>
 <p>
   Di Stéfano es una de las leyendas más grandes del fútbol, destacando por su versatilidad, liderazgo y habilidad goleadora.
 </p>
@@ -580,7 +601,7 @@ function showPlayerInfo(playerName) {
   <li>5 veces campeón de la Copa de Europa con el Real Madrid</li>
 </ul>`,
 
-"Luis Suarez": `<h2>Luis Suárez: El Pistolero</h2>
+    "Luis Suarez": `<h2>Luis Suárez: El Pistolero</h2>
 <p>
   Luis Suárez es uno de los delanteros más prolíficos del fútbol moderno, conocido por su instinto goleador y su capacidad para crear jugadas.
 </p>
@@ -596,7 +617,7 @@ function showPlayerInfo(playerName) {
   <li>Campeón de la Copa America con Uruguay</li>
 </ul>`,
 
-"Karim Benzema": `<h2>Karim Benzema: El Líder del Real Madrid</h2>
+    "Karim Benzema": `<h2>Karim Benzema: El Líder del Real Madrid</h2>
 <p>
   Benzema es conocido por su inteligencia táctica, su capacidad para asistir y su habilidad goleadora.
 </p>
@@ -611,7 +632,7 @@ function showPlayerInfo(playerName) {
   <li>Múltiples títulos de la Champions League con el Real Madrid</li>
 </ul>`,
 
-"Samuel Eto'o": `<h2>Samuel Eto'o: El León Indomable</h2>
+    "Samuel Eto'o": `<h2>Samuel Eto'o: El León Indomable</h2>
 <p>
   Eto'o es uno de los mejores delanteros africanos de todos los tiempos, conocido por su velocidad, poder físico y capacidad goleadora.
 </p>
@@ -626,7 +647,7 @@ function showPlayerInfo(playerName) {
   <li>Campeón de la Champions League con el Barcelona e Inter de Milán</li>
 </ul>`,
 
-"Ruud Gullit": `<h2>Ruud Gullit: El Líder Holandés</h2>
+    "Ruud Gullit": `<h2>Ruud Gullit: El Líder Holandés</h2>
 <p>
   Gullit es conocido por su versatilidad, liderazgo y capacidad técnica, siendo uno de los jugadores más completos de su generación.
 </p>
@@ -641,7 +662,7 @@ function showPlayerInfo(playerName) {
   <li>Campeón de la Eurocopa 1988 con Holanda</li>
 </ul>`,
 
-"Luka Modric": `<h2>Luka Modrić: El Mago Croata</h2>
+    "Luka Modric": `<h2>Luka Modrić: El Mago Croata</h2>
 <p>
   Luka Modrić es uno de los mejores centrocampistas del fútbol moderno, conocido por su capacidad de pase, visión de juego y control del ritmo del partido.
 </p>
@@ -661,7 +682,7 @@ function showPlayerInfo(playerName) {
   <li>Subcampeón del Mundial 2018 con Croacia</li>
 </ul>`,
 
-"Xavi Hernandez": `<h2>Xavi Hernández: El Cerebro del Barcelona</h2>
+    "Xavi Hernandez": `<h2>Xavi Hernández: El Cerebro del Barcelona</h2>
 <p>
   Xavi Hernández es uno de los mejores centrocampistas de todos los tiempos, conocido por su precisión en los pases y su capacidad para controlar el juego desde el medio campo.
 </p>
@@ -680,7 +701,7 @@ function showPlayerInfo(playerName) {
   <li>4 veces campeón de la Champions League con el Barcelona</li>
 </ul>`,
 
-"Andrés Iniesta": `<h2>Andrés Iniesta: El Artista del Fútbol</h2>
+    "Andrés Iniesta": `<h2>Andrés Iniesta: El Artista del Fútbol</h2>
 <p>
   Andrés Iniesta es conocido por su habilidad para driblar en espacios reducidos y su capacidad para marcar goles importantes, como el de la final del Mundial 2010.
 </p>
@@ -700,7 +721,7 @@ function showPlayerInfo(playerName) {
   <li>4 veces campeón de la Champions League con el Barcelona</li>
 </ul>`,
 
-"Kevin De Bruyne": `<h2>Kevin De Bruyne: El Motor del Manchester City</h2>
+    "Kevin De Bruyne": `<h2>Kevin De Bruyne: El Motor del Manchester City</h2>
 <p>
   De Bruyne es uno de los mejores centrocampistas ofensivos del mundo, conocido por su capacidad para realizar pases filtrados, disparos de larga distancia y su visión de juego.
 </p>
@@ -719,7 +740,7 @@ function showPlayerInfo(playerName) {
   <li>Jugador del Año de la Premier League</li>
 </ul>`,
 
-"Toni Kroos": `<h2>Toni Kroos: El Maestro del Medio Campo</h2>
+    "Toni Kroos": `<h2>Toni Kroos: El Maestro del Medio Campo</h2>
 <p>
   Kroos es uno de los centrocampistas más técnicos del fútbol actual, conocido por su precisión en los pases y su capacidad para controlar el ritmo de los partidos.
 </p>
@@ -736,9 +757,7 @@ function showPlayerInfo(playerName) {
 <ul>
   <li>Campeón del Mundial 2014 con Alemania</li>
   <li>Múltiples títulos de la Champions League con el Real Madrid</li>
-</ul>`,
-
-};
+</ul>`, };
 
   const modal = document.getElementById("playerModal");
   const modalContent = document.getElementById("playerInfo");
@@ -749,16 +768,12 @@ function showPlayerInfo(playerName) {
     playerInfo[playerName.trim()]
   }</p>`;
 
-
   modal.style.display = "block";
 }
 
-
 function closeModal() {
   const modal = document.getElementById("playerModal");
-  modal.style.display = "none";
 }
-
 
 document.querySelectorAll(".content div").forEach((player) => {
   player.addEventListener("click", () => {
@@ -766,10 +781,8 @@ document.querySelectorAll(".content div").forEach((player) => {
   });
 });
 
-
 window.onclick = function (event) {
   const modal = document.getElementById("playerModal");
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target = modal) {
   }
 };
