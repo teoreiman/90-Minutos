@@ -852,57 +852,29 @@ window.onclick = function (event) {
   }
 };
 
-function mostrarPantalla(id) {
-  var pantallas = document.querySelectorAll('.pantalla');
-    pantallas.forEach(function(pantalla) {
-        pantalla.classList.remove('visible');
-    });
-
-           var pantallaSeleccionada = document.getElementById(id);
-    pantallaSeleccionada.classList.add('visible');
-}
+// function mostrarPantalla(id) {  
+//   var pantallas = document.querySelectorAll('.pantalla');
+//   pantallas.forEach(function(pantalla) {
+//       pantalla.classList.remove('visible');
+//   });
+//   var pantallaSeleccionada = document.getElementById (id);
+//   pantallaSeleccionada.classList.add('visible');
+// }
 function ocultarPantallas() {
-const pantallas = document.getElementsByClassName('pantalla');
-for (let i = 0; i < pantallas.length; i++) {    
-pantallas[i].style.display = 'none';
-}
-}
-
-function mostrarPantalla(id) {
-ocultarPantallas();
-const pantalla = document.getElementById(id);
-if (pantalla) {
-pantalla.style.display = id== "jugadoresInfo" ? "flex" :  'block';
-}
-}
-
-window.onload = function() {
-ocultarPantallas();
+  const pantallas = document.getElementsByClassName('pantalla');
+  for (let i = 0; i < pantallas.length; i++) {
+    pantallas[i].style.display = 'none';
+  }
 }
 
 function mostrarPantalla(id) {
-         
-  var pantallas = document.querySelectorAll('.pantalla');
-  pantallas.forEach(function(pantalla) {
-      pantalla.classList.remove('visible');
-  });
-  var pantallaSeleccionada = document.getElementById (id);
-  pantallaSeleccionada.classList.add('visible');
-}
-function ocultarPantallas() {
-const pantallas = document.getElementsByClassName('pantalla');
-for (let i = 0; i < pantallas.length; i++) {
-pantallas[i].style.display = 'none';
-}
-}
-
-function mostrarPantalla(id) {
-ocultarPantallas();
-const pantalla = document.getElementById(id);
-if (pantalla) {
-pantalla.style.display = 'block';
-}
+  ocultarPantallas();
+  const pantalla = document.getElementById(id);
+  if (pantalla) {
+    pantalla.style.display = 'block';
+  }
 }
 window.onload = function() {
-ocultarPantallas();
+  ocultarPantallas();
+  mostrarPantalla("home")
 }
