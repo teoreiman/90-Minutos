@@ -852,14 +852,14 @@ window.onclick = function (event) {
   }
 };
 
-// function mostrarPantalla(id) {  
-//   var pantallas = document.querySelectorAll('.pantalla');
-//   pantallas.forEach(function(pantalla) {
-//       pantalla.classList.remove('visible');
-//   });
-//   var pantallaSeleccionada = document.getElementById (id);
-//   pantallaSeleccionada.classList.add('visible');
-// }
+ function mostrarPantalla(id) {  
+   var pantallas = document.querySelectorAll('.pantalla');
+   pantallas.forEach(function(pantalla) {
+       pantalla.classList.remove('visible');
+   });
+   var pantallaSeleccionada = document.getElementById (id);
+   pantallaSeleccionada.classList.add('visible');
+ }
 function ocultarPantallas() {
   const pantallas = document.getElementsByClassName('pantalla');
   for (let i = 0; i < pantallas.length; i++) {
