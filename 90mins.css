@@ -144,6 +144,7 @@ body, html {
 button:hover {
     background-color: rgb(255, 136, 0);
     transition: 0,1s ease;
+    transform: scale(1.15);
 }
 #botones > button {
 width: 107px;
@@ -272,4 +273,9 @@ section > h2 {
     display: grid;
     place-content: center;
   }
+}
+
+.Sponsors:hover{
+transform: scale(1.18);
+background-color: orange;
 }
