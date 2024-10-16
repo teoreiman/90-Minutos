@@ -160,8 +160,7 @@ height: 100px;
   }
 
   
-  .boton:hover,
-  .boton.seleccionado {
+  .boton:hover, .boton.seleccionado {
     background-color: #0056b3;
   }
 
@@ -253,6 +252,13 @@ section > h2 {
 .content > div {
   height: 16em;
   background: #d9d9d9;
+}
+
+.content > div > footer {
+  position: relative;
+  z-index: 100;
+}
+
 
 .image {
     width: 100%;
@@ -273,9 +279,11 @@ section > h2 {
     display: grid;
     place-content: center;
   }
-}
 
 .Sponsors:hover{
 transform: scale(1.18);
-background-color: orange;
+}
+
+.image:hover{
+  transform: scale(1.05);
 }
