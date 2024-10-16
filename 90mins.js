@@ -852,14 +852,6 @@ window.onclick = function (event) {
   }
 };
 
- function mostrarPantalla(id) {  
-   var pantallas = document.querySelectorAll('.pantalla');
-   pantallas.forEach(function(pantalla) {
-       pantalla.classList.remove('visible');
-   });
-   var pantallaSeleccionada = document.getElementById (id);
-   pantallaSeleccionada.classList.add('visible');
- }
 function ocultarPantallas() {
   const pantallas = document.getElementsByClassName('pantalla');
   for (let i = 0; i < pantallas.length; i++) {
@@ -871,9 +863,20 @@ function mostrarPantalla(id) {
   ocultarPantallas();
   const pantalla = document.getElementById(id);
   if (pantalla) {
-    pantalla.style.display = 'block';
+    // Verifica si el id es "jugadoresInfo" para aplicar display flex
+    if (id === 'jugadoresInfo') {
+      pantalla.style.display = 'flex';
+    } else {
+      pantalla.style.display = 'block';
+    }
   }
 }
+
+// Añade un evento de clic para el elemento con id "jugadoresInfo"
+document.getElementById('jugadoresInfo').addEventListener('click', function() {
+  mostrarPantalla('jugadoresInfo');
+});
+
 window.onload = function() {
   ocultarPantallas(); 
   mostrarPantalla("home")

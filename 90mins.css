@@ -141,6 +141,10 @@ body, html {
     display:none;
 }
 
+#jugadoresInfo {
+  display: none;
+}
+
 button:hover {
     background-color: rgb(255, 136, 0);
     transition: 0,1s ease;
