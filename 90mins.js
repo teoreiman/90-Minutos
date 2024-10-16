@@ -875,6 +875,6 @@ function mostrarPantalla(id) {
   }
 }
 window.onload = function() {
-  ocultarPantallas();
+  ocultarPantallas(); 
   mostrarPantalla("home")
 }
