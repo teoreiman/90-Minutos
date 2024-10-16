@@ -41,7 +41,7 @@ body {
     display: flex;
     justify-content: space-between;
     background: orange;
-    z-index: 100;
+    z-index: 102;
     position: fixed;
     top: 0px;
 }
@@ -285,5 +285,6 @@ transform: scale(1.18);
 }
 
 .image:hover{
-  transform: scale(1.05);
+  transform: scale(1.052);
+  background-color: orange;
 }

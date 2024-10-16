@@ -833,7 +833,7 @@ function showPlayerInfo(playerName) {
     playerInfo[playerName.trim()]
   }</p>`;
 
-  modal.style.display = "block";
+  modal.style.display = "grid";
 }
 
 function closeModal() {
