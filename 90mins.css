@@ -9,6 +9,7 @@
 #jugadoresInfo{
     display: flex;
     justify-content: space-between;
+    
 }
 
 html {
@@ -262,6 +263,14 @@ section > h2 {
   z-index: 100;
 }
 
+.content > div > footer {
+  display: flex;
+  align-items: center;
+}
+
+.content > div > footer > h3 {
+  font-size: auto;
+}
 
 .image {
     width: 100%;
@@ -280,13 +289,45 @@ section > h2 {
     background: #7c7c7c;
     display: grid;
     place-content: center;
+    
   }
 
 .Sponsors:hover{
 transform: scale(1.18);
+transition: 0.5s;
+}
+
+.Sponsors{
+  align-items: center;
+  justify-content: space-between;
 }
 
 .image:hover{
   transform: scale(1.052);
   background-color: orange;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9;
+}
+
+.modal.open,
+.overlay.open{
+  display: block;
+}
+
+.modal{
+  display: none;
+  position: fixed;
+  padding: 0.5rem;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  background: white;
+  border-radius: 0.25rem;
+  z-index: 10;
 }
