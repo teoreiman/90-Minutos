@@ -68,7 +68,7 @@ function showPlayerInfo(playerName) {
     "Manuel Neuer": `<h2>Manuel Neuer: El Guardián del Bayern Múnich y de Alemania</h2>
 <p>
   Manuel Neuer es considerado uno de los mejores porteros de la historia del fútbol, reconocido por su estilo de juego moderno como "portero-líbero". No solo se destaca por sus habilidades bajo los palos, sino también por su capacidad para influir en la construcción de jugadas desde el fondo.
-</p>
+</p> <br>
 
 <h3>Características Destacadas:</h3>
 
@@ -863,7 +863,6 @@ function mostrarPantalla(id) {
   ocultarPantallas();
   const pantalla = document.getElementById(id);
   if (pantalla) {
-    // Verifica si el id es "jugadoresInfo" para aplicar display flex
     if (id === 'jugadoresInfo') {
       pantalla.style.display = 'flex';
     } else {
@@ -872,7 +871,6 @@ function mostrarPantalla(id) {
   }
 }
 
-// Añade un evento de clic para el elemento con id "jugadoresInfo"
 document.getElementById('jugadoresInfo').addEventListener('click', function() {
   mostrarPantalla('jugadoresInfo');
 });
