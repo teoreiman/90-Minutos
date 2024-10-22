@@ -73,11 +73,9 @@ h3 {
   transition:0,5s ease;
 }
 
-a:hover {
-  color: white;
-  transition: 0.5s;
+a:hover{
+  color: #a71b1b;
 }
-
 
 #Jugadores,#Clubes,#CopasMundiales,#Estadios,#Hinchadas,#Torneos,#SeleccionesNacionales,#MasInformacion {
   padding-left: 20px;
@@ -313,6 +311,7 @@ transition: 0.5s;
     transform: scale(1.62);
     transition: transform 100ms;
     position: relative;
+    padding-left: 15%;
   }
 
 
