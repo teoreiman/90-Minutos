@@ -68,8 +68,8 @@ h3 {
   background-color: rgba(245, 77, 10, 0.658);
 }
 
-h2:hover {
-  color: chocolate;
+.posiciones:hover {
+  color: rgb(138, 65, 14);
   transition:0,5s ease;
 }
 
@@ -256,11 +256,11 @@ gap: 2em;
 .content > div {
 height: 16em;
 background: #d9d9d9;
+transition: .3s;
 }
 
 .content > div > footer {
 position: relative;
-z-index: 100;
 }
 
 .content > div > footer {
@@ -271,6 +271,10 @@ align-items: center;
 .content > div > footer > h3 {
 font-size: auto;
 }
+
+.content > div > footer > img {
+  width: 2em;
+  }
 
 .image {
   width: 100%;
@@ -293,33 +297,7 @@ footer {
 }
 
 .image:hover{
-transform: scale(1.052);
 background-color: orange;
-}
-
-.overlay {
-display: none;
-position: fixed;
-inset: 0;
-background: rgba(0, 0, 0, 0.5);
-z-index: 9;
-}
-
-.modal.open,
-.overlay.open{
-display: block;
-}
-
-.modal{
-display: none;
-position: fixed;
-padding: 0.5rem;
-top: 50%;
-left: 50%;
-translate: -50% -50%;
-background: white;
-border-radius: 0.25rem;
-z-index: 10;
 }
 
 .Sponsors:hover {
@@ -328,22 +306,29 @@ transition: 0.5s;
 }
 
 .Sponsors{
-    display: inline;
+  justify-content: space-between;
     align-items: center;
     transform: scale(1.62);
     transition: transform 100ms;
-}
+    position: relative;
+  }
+
 
 .marcas{
  color: white;
 }
 
-.image:hover{
+.content > div:hover{
   transform: scale(1.052);
   background-color: orange;
+  transition: 0.5s;
 }
 
 .escudos:hover{
   transform: scale(1.15);
   transition: 0.5s;
+}
+
+.escudos{
+  transition: .3s;
 }
