@@ -127,11 +127,13 @@ body, html {
   cursor: pointer;
   font-size: 16px;
   transition: .3s;
+  opacity: 0.8;
 }
 
 #scrollTopBtn:hover {
   color: aqua;
   transition: 0.4s;
+  opacity: 0;
 }
 
 #scrollToTopBtn.show {

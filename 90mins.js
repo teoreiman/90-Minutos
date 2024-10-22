@@ -877,5 +877,5 @@ document.getElementById('jugadoresInfo').addEventListener('click', function() {
 
 window.onload = function() {
   ocultarPantallas(); 
-  mostrarPantalla("home")
+  mostrarPantalla("home");
 }
