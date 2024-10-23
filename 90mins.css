@@ -311,7 +311,7 @@ transition: 0.5s;
     transform: scale(1.62);
     transition: transform 100ms;
     position: relative;
-    padding-left: 15%;
+    padding-left: 12%;
   }
 
 
