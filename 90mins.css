@@ -15,10 +15,12 @@
 html {
   height: 100%;
   width: 100%;
+  font-size: 110%;
 }
 
 body {
-  background-color: #2f74a8
+  background-color: #2f74a8;
+  font-size: 1rem;
 }
 
 #logo{
@@ -200,6 +202,10 @@ height: 100px;
 .caption p{
   color: white;
   width: 80%;
+}
+
+p{
+  font-size: 1rem;
 }
 
 .opacity-hover{
