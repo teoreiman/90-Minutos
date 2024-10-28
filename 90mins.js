@@ -823,11 +823,74 @@ function showPlayerInfo(playerName) {
   <li>Campeón del Mundial 2014 con Alemania</li>
   <li>Múltiples títulos de la Champions League con el Real Madrid</li>
 </ul>`, 
+
+"Frank Lampard": `<h2>Frank Lampard: El Cerebro del Chelsea y de Inglaterra</h2>
+<p>
+  Frank Lampard es considerado uno de los mediocampistas más destacados de la Premier League, conocido por su inteligencia en el campo y su impresionante habilidad para marcar goles desde media distancia.
+</p>
+<h3>Características Destacadas:</h3>
+<ul>
+  <li><strong>Llegada al área y disparo:</strong> Lampard era experto en unirse al ataque y convertir desde afuera del área. 
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores goles</a>
+  </li>
+  <li><strong>Visión de juego:</strong> Sus pases precisos lo hacían un maestro en la distribución. 
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver su visión en acción</a>
+  </li>
+</ul>
+<h3>Logros más relevantes:</h3>
+<ul>
+  <li>Múltiples títulos de la Premier League con el Chelsea</li>
+  <li>Ganador de la Champions League en 2012</li>
+  <li>Mediocampista con más goles en la historia de la Premier League</li>
+</ul>`,
+
+"David Beckham":`<h2>David Beckham: El Maestro de los Tiros Libres</h2>
+<p>
+  David Beckham es uno de los futbolistas ingleses más icónicos, conocido por su precisión en los tiros libres y su capacidad para generar jugadas ofensivas desde las bandas.
+</p>
+<h3>Características Destacadas:</h3>
+<ul>
+  <li><strong>Precisión en los tiros libres:</strong> Beckham tenía una técnica impecable para colocar el balón en la red desde larga distancia.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores tiros libres</a>
+  </li>
+  <li><strong>Visión y centros precisos:</strong> Su capacidad para asistir con centros milimétricos lo hacía un arma letal.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores asistencias</a>
+  </li>
+</ul>
+<h3>Logros más relevantes:</h3>
+<ul>
+  <li>Campeón de la Premier League con el Manchester United</li>
+  <li>Ganador de la Champions League en 1999</li>
+  <li>Figura destacada del Real Madrid y la selección inglesa</li>
+</ul>
+`,
+
+"René Higuita": `<h2>René Higuita: El Loco de la Portería</h2>
+<p>
+  René Higuita, apodado "El Loco", es uno de los porteros más carismáticos e innovadores del fútbol, famoso por sus arriesgadas jugadas y el estilo único del "Escorpión".
+</p>
+<h3>Características Destacadas:</h3>
+<ul>
+  <li><strong>Estilo del "Escorpión":</strong> Higuita hizo famosa esta técnica al rechazar el balón con los talones.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver el famoso escorpión</a>
+  </li>
+  <li><strong>Juego fuera del área:</strong> Su habilidad para salir y participar en jugadas ofensivas lo hizo un portero único.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores jugadas</a>
+  </li>
+</ul>
+<h3>Logros más relevantes:</h3>
+<ul>
+  <li>Campeón de la Copa Libertadores con Atlético Nacional</li>
+  <li>Participación en múltiples Copas del Mundo con Colombia</li>
+  <li>Figura icónica del fútbol sudamericano</li>
+</ul>`,
 };
 
-document.querySelectorAll("button").forEach(button => {
-  button.disabled = true;
-})
+window.onload = () => {
+  document.querySelectorAll("button").forEach(button => {
+    button.disabled = true;
+  });
+};
 
   const modal = document.getElementById("playerModal");
   const modalContent = document.getElementById("playerInfo");
