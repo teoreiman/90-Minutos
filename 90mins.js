@@ -822,7 +822,12 @@ function showPlayerInfo(playerName) {
 <ul>
   <li>Campeón del Mundial 2014 con Alemania</li>
   <li>Múltiples títulos de la Champions League con el Real Madrid</li>
-</ul>`, };
+</ul>`, 
+};
+
+document.querySelectorAll("button").forEach(button => {
+  button.disabled = true;
+})
 
   const modal = document.getElementById("playerModal");
   const modalContent = document.getElementById("playerInfo");
@@ -837,8 +842,11 @@ function showPlayerInfo(playerName) {
 }
 
 function closeModal() {
-  const modal = document.getElementById("playerModal");
+  const modal = document.getElementById("playerModal"); document.querySelectorAll("button").forEach(button => {
+    button.disabled = false;
+  })
 }
+
 
 document.querySelectorAll(".content div").forEach((player) => {
   player.addEventListener("click", () => {
