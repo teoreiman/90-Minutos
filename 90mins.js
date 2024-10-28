@@ -1,8 +1,8 @@
 function mostrarPantalla(seccion) {
   var pantallas = document.getElementsByClassName("pantalla");
   for (var i = 0; i < pantallas.length; i++) {
-    pantallas[i].style.display
-    scrollToTopBtn()
+    pantallas[i].style.display;
+    scrollToTopBtn();
   }
   var pantallaSeleccionada = document.getElementById(seccion);
   if (pantallaSeleccionada) {
@@ -31,23 +31,28 @@ function toggleStickyNavbar() {
 
 let scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
-window.onscroll = function() {
-  if (document.body.scrollToTopBtn > 20 || document.documentElement.scrollToTopBtn > 20) {
+window.onscroll = function () {
+  if (
+    document.body.scrollToTopBtn > 20 ||
+    document.documentElement.scrollToTopBtn > 20
+  ) {
     scrollToTopBtn.style.display = "block";
   }
 };
 
-let main = document.getElementById("jugadoresInfo")
+let main = document.getElementById("jugadoresInfo");
 scrollToTopBtn.addEventListener("click", () => {
-  main.scrollTo({top: 0, behavior: "smooth"});
-})
-
-document.getElementById("scrollToTopBtn").addEventListener("click", function() {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  });
+  main.scrollTo({ top: 0, behavior: "smooth" });
 });
+
+document
+  .getElementById("scrollToTopBtn")
+  .addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
 
 document.querySelectorAll("button[data-target]").forEach((button) => {
   button.addEventListener("click", function () {
@@ -89,6 +94,46 @@ function showPlayerInfo(playerName) {
   <li>Campeón del Mundial 2014 con Alemania</li>
   <li>Múltiples títulos de la Bundesliga con el Bayern Múnich</li>
   <li>Premios a mejor portero del mundo por la FIFA y la IFFHS</li>
+</ul>`,
+
+    "Franco Baresi": `<h2>Franco Baresi: El Pilar de la Defensa Italiana</h2>
+<p>
+  Franco Baresi es una leyenda del fútbol italiano, reconocido por su liderazgo en la defensa y su capacidad para leer el juego con anticipación. Fue el capitán y símbolo del AC Milan durante más de dos décadas.
+</p>
+<h3>Características Destacadas:</h3>
+<ul>
+  <li><strong>Anticipación y lectura del juego:</strong> Baresi era un maestro en posicionarse y anticipar los movimientos del rival.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores defensas</a>
+  </li>
+  <li><strong>Liderazgo en la defensa:</strong> Como capitán, organizaba la defensa con maestría y transmitía seguridad a sus compañeros.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver su liderazgo en acción</a>
+  </li>
+</ul>
+<h3>Logros más relevantes:</h3>
+<ul>
+  <li>Campeón de la Serie A en múltiples ocasiones con el AC Milan</li>
+  <li>Campeón de la Copa del Mundo 1982 con Italia</li>
+  <li>Figura icónica y número retirado en el AC Milan</li>
+</ul>`,
+
+    "Vini. Jr": `<h2>Vinícius Jr: La Joya Brasileña del Real Madrid</h2>
+<p>
+  Vinícius Jr es una de las estrellas emergentes más electrizantes del fútbol mundial, conocido por su velocidad y habilidad para desbordar a defensores con facilidad. Su estilo ofensivo lo convierte en una amenaza constante para sus oponentes.
+</p>
+<h3>Características Destacadas:</h3>
+<ul>
+  <li><strong>Velocidad y regate:</strong> Vinícius es imparable en el uno contra uno, capaz de superar defensas con su rapidez y destreza.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores jugadas</a>
+  </li>
+  <li><strong>Gol y definición:</strong> Ha mejorado notablemente su capacidad para finalizar jugadas y ser decisivo en momentos clave.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores goles</a>
+  </li>
+</ul>
+<h3>Logros más relevantes:</h3>
+<ul>
+  <li>Ganador de la Champions League 2022 con el Real Madrid</li>
+  <li>Múltiples títulos de La Liga con el Real Madrid</li>
+  <li>Figura clave en la selección de Brasil</li>
 </ul>`,
 
     "Iker Casillas": `<h2>Iker Casillas: El Santo del Real Madrid</h2>
@@ -196,7 +241,7 @@ function showPlayerInfo(playerName) {
   <li>Finalista de la Champions League con el Villarreal</li>
 </ul>`,
 
-"Marco Van Basten": `<h2>Marco van Basten: El Elegante Goleador</h2>
+    "Marco Van Basten": `<h2>Marco van Basten: El Elegante Goleador</h2>
 <p>
   Marco van Basten es uno de los mejores delanteros de todos los tiempos, conocido por su elegancia, técnica y capacidad goleadora. Su combinación de habilidad técnica y poder físico lo convirtió en una amenaza constante para los defensores.
 </p>
@@ -276,7 +321,7 @@ function showPlayerInfo(playerName) {
   <li>Balón de Oro en dos ocasiones</li>
 </ul>`,
 
-    Pelé: `<h2>Pelé: El Rey del Fútbol</h2>
+    "Pelé": `<h2>Pelé: El Rey del Fútbol</h2>
 <p>
   Pelé es ampliamente considerado como uno de los mejores jugadores de todos los tiempos, destacando por su habilidad técnica y su capacidad goleadora.
 </p>
@@ -295,7 +340,7 @@ function showPlayerInfo(playerName) {
   <li>Más de 1000 goles en su carrera</li>
 </ul>`,
 
-    Ronaldinho: `<h2>Ronaldinho: El Mago del Fútbol</h2>
+    "Ronaldinho": `<h2>Ronaldinho: El Mago del Fútbol</h2>
 <p>
   Ronaldinho es uno de los jugadores más creativos y carismáticos que el fútbol haya visto, conocido por su estilo alegre y su increíble técnica.
 </p>
@@ -529,7 +574,7 @@ function showPlayerInfo(playerName) {
   <li>Múltiples títulos de la Champions League con el Barcelona</li>
 </ul>`,
 
-    Cafú: `<h2>Cafu: El Rey de los Laterales</h2>
+    "Cafú": `<h2>Cafu: El Rey de los Laterales</h2>
 <p>
   Cafu es uno de los mejores laterales derechos de todos los tiempos, conocido por su incansable energía y su capacidad tanto ofensiva como defensiva.
 </p>
@@ -822,9 +867,9 @@ function showPlayerInfo(playerName) {
 <ul>
   <li>Campeón del Mundial 2014 con Alemania</li>
   <li>Múltiples títulos de la Champions League con el Real Madrid</li>
-</ul>`, 
+</ul>`,
 
-"Frank Lampard": `<h2>Frank Lampard: El Cerebro del Chelsea y de Inglaterra</h2>
+    "Frank Lampard": `<h2>Frank Lampard: El Cerebro del Chelsea y de Inglaterra</h2>
 <p>
   Frank Lampard es considerado uno de los mediocampistas más destacados de la Premier League, conocido por su inteligencia en el campo y su impresionante habilidad para marcar goles desde media distancia.
 </p>
@@ -844,7 +889,7 @@ function showPlayerInfo(playerName) {
   <li>Mediocampista con más goles en la historia de la Premier League</li>
 </ul>`,
 
-"David Beckham":`<h2>David Beckham: El Maestro de los Tiros Libres</h2>
+    "David Beckham": `<h2>David Beckham: El Maestro de los Tiros Libres</h2>
 <p>
   David Beckham es uno de los futbolistas ingleses más icónicos, conocido por su precisión en los tiros libres y su capacidad para generar jugadas ofensivas desde las bandas.
 </p>
@@ -865,7 +910,7 @@ function showPlayerInfo(playerName) {
 </ul>
 `,
 
-"René Higuita": `<h2>René Higuita: El Loco de la Portería</h2>
+    "René Higuita": `<h2>René Higuita: El Loco de la Portería</h2>
 <p>
   René Higuita, apodado "El Loco", es uno de los porteros más carismáticos e innovadores del fútbol, famoso por sus arriesgadas jugadas y el estilo único del "Escorpión".
 </p>
@@ -884,13 +929,13 @@ function showPlayerInfo(playerName) {
   <li>Participación en múltiples Copas del Mundo con Colombia</li>
   <li>Figura icónica del fútbol sudamericano</li>
 </ul>`,
-};
+  };
 
-window.onload = () => {
-  document.querySelectorAll("button").forEach(button => {
-    button.disabled = true;
-  });
-};
+  window.onload = () => {
+    document.querySelectorAll("button").forEach((button) => {
+      button.disabled = true;
+    });
+  };
 
   const modal = document.getElementById("playerModal");
   const modalContent = document.getElementById("playerInfo");
@@ -905,11 +950,11 @@ window.onload = () => {
 }
 
 function closeModal() {
-  const modal = document.getElementById("playerModal"); document.querySelectorAll("button").forEach(button => {
+  const modal = document.getElementById("playerModal");
+  document.querySelectorAll("button").forEach((button) => {
     button.disabled = false;
-  })
+  });
 }
-
 
 document.querySelectorAll(".content div").forEach((player) => {
   player.addEventListener("click", () => {
@@ -919,14 +964,14 @@ document.querySelectorAll(".content div").forEach((player) => {
 
 window.onclick = function (event) {
   const modal = document.getElementById("playerModal");
-  if (event.target = modal) {
+  if ((event.target = modal)) {
   }
 };
 
 function ocultarPantallas() {
-  const pantallas = document.getElementsByClassName('pantalla');
+  const pantallas = document.getElementsByClassName("pantalla");
   for (let i = 0; i < pantallas.length; i++) {
-    pantallas[i].style.display = 'none';
+    pantallas[i].style.display = "none";
   }
 }
 
@@ -934,19 +979,19 @@ function mostrarPantalla(id) {
   ocultarPantallas();
   const pantalla = document.getElementById(id);
   if (pantalla) {
-    if (id === 'jugadoresInfo') {
-      pantalla.style.display = 'flex';
+    if (id === "jugadoresInfo") {
+      pantalla.style.display = "flex";
     } else {
-      pantalla.style.display = 'block';
+      pantalla.style.display = "block";
     }
   }
 }
 
-document.getElementById('jugadoresInfo').addEventListener('click', function() {
-  mostrarPantalla('jugadoresInfo');
+document.getElementById("jugadoresInfo").addEventListener("click", function () {
+  mostrarPantalla("jugadoresInfo");
 });
 
-window.onload = function() {
-  ocultarPantallas(); 
+window.onload = function () {
+  ocultarPantallas();
   mostrarPantalla("home");
-}
+};
