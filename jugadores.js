@@ -242,40 +242,170 @@ function showPlayerInfo(playerName) {
     "Pelé": `<h2>Pelé: El Rey del Fútbol</h2>
 <p>
   Pelé es ampliamente considerado como uno de los mejores jugadores de todos los tiempos, destacando por su habilidad técnica y su capacidad goleadora. <br>
-</p>
-<h3>Características Destacadas:</h3>
+</p> <br>
+<h3>Características Destacadas:</h3> <br>
 <ul>
   <li><strong>Creatividad y agilidad:</strong> Pelé fue un jugador extremadamente ágil con una visión para crear oportunidades. 
     <a href="https://www.youtube.com/watch?v=T7HFqgA0t_A" target="_blank">Ver video de sus jugadas</a> <br>
-  </li>
+  </li> <br>
   <li><strong>Finalización en el área:</strong> Su capacidad para marcar desde cualquier ángulo lo convirtió en un goleador excepcional.
     <a href="https://www.youtube.com/watch?v=gKs7uQbI8iY" target="_blank">Ver sus mejores goles</a> <br>
   </li>
-</ul>
+</ul> <br>
 <h3>Logros mas relevantes</h3> <br>
 <ul>
   <li>Tres veces campeón del Mundial con Brasil</li>
   <li>Más de 1000 goles en su carrera</li>
 </ul>`,
 
-    "Ronaldinho": `<h2>Ronaldinho: El Mago del Fútbol</h2>
+    "Ronaldinho": `<h2>Ronaldinho: El Mago del Fútbol</h2> <br>
 <p>
   Ronaldinho es uno de los jugadores más creativos y carismáticos que el fútbol haya visto, conocido por su estilo alegre y su increíble técnica. <br>
-</p>
-<h3>Características Destacadas:</h3>
+</p> <br>
+<h3>Características Destacadas:</h3> <br>
 <ul>
   <li><strong>Técnica asombrosa:</strong> Ronaldinho es famoso por sus trucos y su habilidad para hacer jugadas impredecibles. 
     <a href="https://www.youtube.com/watch?v=ZNaybZvHdWs" target="_blank">Ver sus mejores jugadas</a> <br>
-  </li>
+  </li> <br>
   <li><strong>Fútbol alegre:</strong> Su estilo de juego siempre transmitía diversión, y a menudo dejaba a la defensa rival sin respuestas. 
     <a href="https://www.youtube.com/watch?v=p7B3PccAe6g" target="_blank">Ver su magia en el campo</a> <br>
   </li>
-</ul>
-<h3>Logros:</h3> <br>
+</ul> <br>
+<h3>Logros mas relevantes:</h3> <br>
 <ul>
   <li>Campeón del Mundial 2002 con Brasil</li>
   <li>Balón de Oro en 2005</li>
 </ul>`,
+
+"Steven Gerrard": `<h2>Steven Gerrard: El Capitán Fantástico de Liverpool</h2>
+<p>
+  Steven Gerrard es un símbolo del Liverpool FC y uno de los mediocampistas más completos de su generación, conocido por su liderazgo y su habilidad para marcar goles en momentos cruciales.
+</p>
+<br>
+<h3>Características Destacadas:</h3>
+<ul>
+  <li><strong>Potente disparo desde lejos:</strong> Gerrard era experto en convertir desde fuera del área en situaciones decisivas.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores goles</a>
+  </li>
+  <br>
+  <li><strong>Liderazgo y entrega:</strong> Como capitán, era el corazón del equipo, inspirando a sus compañeros con su compromiso y pasión.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver su liderazgo en acción</a>
+  </li>
+</ul>
+<br>
+<h3>Logros más relevantes:</h3>
+<ul>
+  <li>Ganador de la Champions League en 2005</li>
+  <br>
+  <li>Ícono del Liverpool FC y la selección inglesa</li>
+  <br>
+  <li>Múltiples títulos de la FA Cup y la Copa de la Liga</li>
+</ul>
+`,
+
+"Lamine Yamal": `<h2>Lamine Yamal: La Promesa Joven del FC Barcelona</h2>
+<p>
+  Lamine Yamal es una de las jóvenes promesas del fútbol español, conocido por su habilidad y velocidad en el uno contra uno, que lo han convertido rápidamente en una joya para el FC Barcelona.
+</p>
+<br>
+<h3>Características Destacadas:</h3>
+<ul>
+  <li><strong>Dribbling y agilidad:</strong> Yamal posee un talento natural para desbordar rivales y crear oportunidades con su habilidad en el regate.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores jugadas</a>
+  </li>
+  <br>
+  <li><strong>Precisión y visión de juego:</strong> A pesar de su juventud, muestra gran madurez para asistir a sus compañeros en situaciones de ataque.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus asistencias</a>
+  </li>
+</ul>
+<br>
+<h3>Logros más relevantes:</h3>
+<ul>
+  <li>Debut a temprana edad en el primer equipo del FC Barcelona</li>
+  <br>
+  <li>Convocatorias con la selección española sub-21</li>
+  <br>
+  <li>Considerado uno de los talentos más prometedores de su generación</li>
+</ul>
+`,
+
+"Bobby Moore": `<h2>Bobby Moore: El Caballero de la Defensa Inglesa</h2>
+<p>
+  Bobby Moore es una leyenda del fútbol inglés, conocido por su elegancia y capacidad para anticipar jugadas. Fue el capitán que llevó a Inglaterra a ganar su única Copa del Mundo.
+</p>
+<br>
+<h3>Características Destacadas:</h3>
+<ul>
+  <li><strong>Defensa impecable:</strong> Moore se destacaba por su habilidad para anticipar las jugadas y desarmar a los rivales con elegancia.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores intervenciones</a>
+  </li>
+  <br>
+  <li><strong>Liderazgo en el campo:</strong> Como capitán de Inglaterra, su presencia inspiraba a sus compañeros y a la afición.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver su liderazgo en acción</a>
+  </li>
+</ul>
+<br>
+<h3>Logros más relevantes:</h3>
+<ul>
+  <li>Campeón de la Copa del Mundo 1966 con Inglaterra</li>
+  <br>
+  <li>Figura histórica del West Ham United</li>
+  <br>
+  <li>Considerado uno de los mejores defensores de todos los tiempos</li>
+</ul>
+`,
+
+"Marc André Ter Stegen": `<h2>Marc-André ter Stegen: El Muro Alemán</h2>
+<p>
+  Marc-André ter Stegen es uno de los mejores porteros de la actualidad, conocido por sus reflejos rápidos y su habilidad para jugar con los pies, cualidades que le permiten integrarse al estilo de juego del FC Barcelona.
+</p>
+<br>
+<h3>Características Destacadas:</h3>
+<ul>
+  <li><strong>Reflejos excepcionales:</strong> Ter Stegen es capaz de realizar paradas espectaculares en situaciones de uno contra uno.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores atajadas</a>
+  </li>
+  <br>
+  <li><strong>Habilidad con los pies:</strong> Su precisión al pasar el balón lo convierte en una pieza clave en la construcción de juego desde el fondo.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver su juego con los pies</a>
+  </li>
+</ul>
+<br>
+<h3>Logros más relevantes:</h3>
+<ul>
+  <li>Múltiples títulos de La Liga con el Barcelona</li>
+  <br>
+  <li>Campeón de la Champions League en 2015</li>
+  <br>
+  <li>Figura destacada en la selección de Alemania</li>
+</ul>
+`,
+
+"Lothar Maatthaus": `<h2>Lothar Matthäaus: El Todo Terreno Alemán</h2>
+<p>
+  Lothar Matthäaus es uno de los futbolistas más versátiles de la historia, destacado tanto en defensa como en ataque. Fue un líder indiscutible en el mediocampo y es el jugador con más partidos en Copas del Mundo.
+</p>
+<br>
+<h3>Características Destacadas:</h3>
+<ul>
+  <li><strong>Polivalencia en el campo:</strong> Matthäus podía jugar tanto como mediocampista defensivo como ofensivo, adaptándose a las necesidades del equipo.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores jugadas</a>
+  </li>
+  <br>
+  <li><strong>Potencia y precisión:</strong> Su capacidad para marcar goles desde lejos era impresionante.
+    <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores goles</a>
+  </li>
+</ul>
+<br>
+<h3>Logros más relevantes:</h3>
+<ul>
+  <li>Campeón de la Copa del Mundo 1990 con Alemania</li>
+  <br>
+  <li>Ganador del Balón de Oro en 1990</li>
+  <br>
+  <li>Múltiples títulos de la Bundesliga con el Bayern Múnich</li>
+</ul>
+`,
 
     "Neymar Jr": `<h2>Neymar Jr: La Magia Brasileña</h2>
 <p>
@@ -388,44 +518,45 @@ function showPlayerInfo(playerName) {
     "Victor Valdes": `<h2>Víctor Valdés: El Guardián de la Era Dorada del Barcelona</h2>
 <p>
   Víctor Valdés fue el portero del legendario Barcelona de Guardiola, conocido por su consistencia y seguridad en la portería.
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Distribución precisa:</strong> Valdés jugaba un papel clave en la salida con el balón desde el fondo. 
     <a href="https://www.youtube.com/watch?v=qKVLX-m1CpE" target="_blank">Ver su técnica</a>
   </li>
-</ul>
-<h3>Logro mas relevante</h3>
+</ul> <br>
+<h3>Logros mas relevante</h3>
 <ul>
-  <li>3 veces campeón de la Champions League con el Barcelona</li>
+  <li>3 veces campeón de la Champions League con el Barcelona</li> <br>
+  <li>Campeón del mundo con España en 2010</li>
 </ul>`,
 
     "Lev Yashin": `<h2>Lev Yashin: La Araña Negra</h2>
 <p>
   Yashin es considerado uno de los mejores porteros de todos los tiempos y es el único guardameta en ganar el Balón de Oro.
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Reflejos y liderazgo:</strong> Era famoso por su capacidad para detener penales y comandar su defensa. 
     <a href="https://www.youtube.com/watch?v=5yoTKT0XcU0" target="_blank">Ver sus mejores atajadas</a>
   </li>
-</ul>
+</ul> <br>
 <h3>Logro mas relevante</h3>
-<ul>
+<ul> <br>
   <li>Balón de Oro en 1963</li>
 </ul>`,
 
-    "Petr Cech": `<h2>Petr Čech: El Muro Checo</h2>
-<p>
+    "Petr Cech": `<h2>Petr Čech: El Muro Checo</h2> <br>
+<p> 
   Petr Čech es conocido por su consistencia y longevidad en el fútbol de élite, particularmente con el Chelsea.
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Reflejos rápidos:</strong> Famoso por sus salvadas cruciales en momentos decisivos. 
     <a href="https://www.youtube.com/watch?v=f7Kh9hYFdK4" target="_blank">Ver sus mejores paradas</a>
   </li>
-</ul>
-<h3>Logro mas relevante</h3>
+</ul> <br>
+<h3>Logro mas relevante</h3> <br>
 <ul>
   <li>Campeón de la Champions League con el Chelsea en 2012</li>
 </ul>`,
@@ -433,14 +564,14 @@ function showPlayerInfo(playerName) {
     "Carles Puyol": `<h2>Carles Puyol: El Guerrero del Barcelona</h2>
 <p>
   Puyol es conocido por su liderazgo y entrega total en cada partido, siendo un defensor central clave en la historia del Barcelona.
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Marcaje fuerte:</strong> Puyol era implacable en sus entradas y su capacidad para leer el juego. 
     <a href="https://www.youtube.com/watch?v=lyFyQ9Ddpu4" target="_blank">Ver sus mejores defensas</a>
   </li>
-</ul>
-<h3>Logro mas relevante</h3>
+</ul> <br>
+<h3>Logro mas relevante</h3> <br>
 <ul>
   <li>Campeón del Mundial 2010 con España</li>
   <li>3 veces campeón de la Champions League con el Barcelona</li>
@@ -449,14 +580,14 @@ function showPlayerInfo(playerName) {
     "Roberto Carlos": `<h2>Roberto Carlos: El Lateral de los Misiles</h2>
 <p>
   Roberto Carlos es recordado por sus potentes tiros libres y su velocidad jugando como lateral izquierdo.
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
-<ul>
+<ul> <br>
   <li><strong>Disparos potentes:</strong> Roberto Carlos era capaz de anotar desde grandes distancias con increíble potencia. 
     <a href="https://www.youtube.com/watch?v=3ECoR__tJNQ" target="_blank">Ver su famoso gol de tiro libre</a>
   </li>
-</ul>
-<h3>Logros:</h3>
+</ul> <br>
+<h3>Logros mas relevantes:</h3> <br>
 <ul>
   <li>Campeón del Mundial 2002 con Brasil</li>
   <li>Múltiples títulos con el Real Madrid</li>
@@ -465,13 +596,13 @@ function showPlayerInfo(playerName) {
     "Johan Cruyff": `<h2>Johan Cruyff: El Arquitecto del Fútbol Total</h2>
 <p>
   Cruyff revolucionó el fútbol con su concepto de "fútbol total", tanto como jugador como entrenador, influyendo profundamente en el juego moderno.
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Creatividad y visión:</strong> Cruyff era famoso por su capacidad para organizar jugadas ofensivas. 
     <a href="https://www.youtube.com/watch?v=5MtVTETNm0s" target="_blank">Ver sus mejores jugadas</a>
   </li>
-</ul>
+</ul> <br>
 <h3>Logro mas relevante</h3>
 <ul>
   <li>3 veces ganador del Balón de Oro</li>
@@ -480,121 +611,123 @@ function showPlayerInfo(playerName) {
     "Dani Alves": `<h2>Dani Alves: El Lateral Más Laureado</h2>
 <p>
   Dani Alves es el jugador más laureado de la historia del fútbol, famoso por su habilidad ofensiva y su capacidad de asistir desde el lateral derecho.
-</p>
-<h3>Características Destacadas:</h3>
+</p> <br>
+<h3>Características Destacadas:</h3> <br>
 <ul>
   <li><strong>Asistencias desde la banda:</strong> Su capacidad para crear oportunidades de gol era inigualable. 
     <a href="https://www.youtube.com/watch?v=RIFDH2R_y3M" target="_blank">Ver sus asistencias</a>
   </li>
-</ul>
+</ul> <br>
 <h3>Logro mas relevante</h3>
 <ul>
   <li>Múltiples títulos de la Champions League con el Barcelona</li>
 </ul>`,
 
-    "Cafú": `<h2>Cafu: El Rey de los Laterales</h2>
+    Cafú: `<h2>Cafu: El Rey de los Laterales</h2> <br>
 <p>
   Cafu es uno de los mejores laterales derechos de todos los tiempos, conocido por su incansable energía y su capacidad tanto ofensiva como defensiva.
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Velocidad y resistencia:</strong> Cafu dominaba toda la banda derecha con su velocidad y resistencia física. 
     <a href="https://www.youtube.com/watch?v=rmAG6hJHJpU" target="_blank">Ver su juego</a>
   </li>
-</ul>
-<h3>Logro mas relevante</h3>
+</ul> <br>
+<h3>Logro mas relevante</h3> <br>
 <ul>
   <li>Dos veces campeón del Mundial con Brasil (1994, 2002)</li>
 </ul>`,
 
-    "Virgil Van Dijk": `<h2>Virgil Van Dijk: El Roca de Anfield</h2>
+    "Virgil Van Dijk": `<h2> Virgil Van Dijk: El Roca de Anfield</h2> <br>
 <p>
   Van Dijk es uno de los defensores centrales más dominantes del fútbol moderno, conocido por su físico imponente y su lectura del juego.
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Fuerza y liderazgo:</strong> Van Dijk es una roca en la defensa y un líder natural. 
     <a href="https://www.youtube.com/watch?v=GxRzlBPQ6ls" target="_blank">Ver sus mejores jugadas defensivas</a>
   </li>
-</ul>
-<h3>Logro mas relevante</h3>
+</ul> <br>
+<h3>Logros mas relevantes</h3> <br>
 <ul>
   <li>Campeón de la Champions League con el Liverpool</li>
+  <li>Quedar segundo en el Balón de Oro de 2019</li>
 </ul>`,
 
-    "Gerard Piqué": `<h2>Gerard Piqué: El Defensor Catalán</h2>
+    "Gerard Piqué": `<h2>Gerard Piqué: El Defensor Catalán</h2> <br>
 <p>
   Piqué ha sido una figura clave en la defensa del Barcelona durante más de una década, combinando su inteligencia defensiva con una gran habilidad para jugar el balón.
-</p>
-<h3>Características Destacadas:</h3>
+</p> <br>
+<h3>Características Destacadas:</h3> <br>
 <ul>
   <li><strong>Juego aéreo:</strong> Piqué es excelente en los balones aéreos tanto en defensa como en ataque. 
     <a href="https://www.youtube.com/watch?v=8UyHCIRNoFg" target="_blank">Ver su juego aéreo</a>
   </li>
-</ul>
-<h3>Logros mas relevantes</h3>
+</ul> <br>
+<h3>Logros mas relevantes</h3> <br>
 <ul>
   <li>Campeón del Mundial 2010 con España</li>
   <li>Multiples titulos con el Barcelona</li>
 </ul>`,
 
-    "Fabio Cannavaro": `<h2>Fabio Cannavaro: El General Italiano</h2>
+    "Fabio Cannavaro": `<h2>Fabio Cannavaro: El General Italiano</h2> <br>
 <p>
   Cannavaro es uno de los defensores más grandes de la historia, siendo uno de los pocos en ganar el Balón de Oro por su actuación defensiva.
-</p>
-<h3>Características Destacadas:</h3>
+</p> <br>
+<h3>Características Destacadas:</h3> <br>
 <ul>
   <li><strong>Anticipación y liderazgo:</strong> Su capacidad para leer el juego y anticiparse a las jugadas era excepcional. 
     <a href="https://www.youtube.com/watch?v=_U_kvjZGbHE" target="_blank">Ver sus mejores intervenciones</a>
   </li>
-</ul>
-<h3>Logros mas relevantes</h3>
+</ul> <br>
+<h3>Logros mas relevantes</h3> <br>
 <ul>
   <li>Campeón del Mundial 2006 con Italia</li>
   <li>Balón de Oro en 2006</li>
 </ul>`,
 
-    "Philipp Lahm": `<h2>Philipp Lahm: El Capitán Silencioso</h2>
+    "Philipp Lahm": `<h2>Philipp Lahm: El Capitán Silencioso</h2> <br>
 <p>
   Lahm fue uno de los jugadores más inteligentes del fútbol, destacando tanto como lateral derecho como centrocampista defensivo.
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Inteligencia táctica:</strong> Lahm era capaz de jugar en múltiples posiciones gracias a su gran conocimiento del juego. 
     <a href="https://www.youtube.com/watch?v=ON_OHDZPb-Q" target="_blank">Ver su juego</a>
   </li>
-</ul>
-<h3>Logro mas relevante</h3>
+</ul> <br>
+<h3>Logros mas relevantes</h3> <br>
 <ul>
   <li>Campeón del Mundial 2014 con Alemania</li>
+  <li> Varios titulos de Champions League con el Bayern Munich</li>
 </ul>`,
 
     Marcelo: `<h2>Marcelo: El Lateral Ofensivo</h2>
-<p>
+<p><br>
   Marcelo es conocido por su habilidad técnica y su capacidad para crear oportunidades ofensivas desde el lateral izquierdo.
-</p>
-<h3>Características Destacadas:</h3>
+</p> <br>
+<h3>Características Destacadas:</h3> <br>
 <ul>
   <li><strong>Regate y ataque:</strong> Marcelo es excepcional en el uno contra uno y en su capacidad para asistir. 
     <a href="https://www.youtube.com/watch?v=23ihVkSYPXk" target="_blank">Ver sus mejores jugadas</a>
   </li>
-</ul>
-<h3>Logro mas relevante</h3>
+</ul> <br>
+<h3>Logro mas relevante</h3> <br>
 <ul>
   <li>Múltiples títulos de la Champions League con el Real Madrid</li>
 </ul>`,
 
     "Franz Beckenbauer": `<h2>Franz Beckenbauer: El Kaiser</h2>
-<p>
+<p> <br>
   Beckenbauer es uno de los mejores defensores de la historia, conocido por inventar el rol de "líbero", controlando tanto la defensa como el ataque.
-</p>
-<h3>Características Destacadas:</h3>
+</p> <br>
+<h3>Características Destacadas:</h3> <br>
 <ul>
   <li><strong>Visión y liderazgo:</strong> Beckenbauer era un maestro en organizar el juego desde la defensa. 
     <a href="https://www.youtube.com/watch?v=r-BjK-p8deI" target="_blank">Ver su estilo de juego</a>
   </li>
-</ul>
-<h3>Logro mas relevante</h3>
+</ul> <br>
+<h3>Logro mas relevante</h3> <br>
 <ul>
   <li>Campeón del Mundo 1974 con Alemania</li>
 </ul>`,
@@ -602,14 +735,14 @@ function showPlayerInfo(playerName) {
     "Thierry Herny": `<h2>Thierry Henry: El Rey de Arsenal</h2>
 <p>
   Henry es uno de los mejores delanteros de la historia, famoso por su velocidad, regate y capacidad para definir en cualquier situación.
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Velocidad y definición:</strong> Henry era letal en contraataques, combinando velocidad y técnica. 
     <a href="https://www.youtube.com/watch?v=lbgp20sRlYo" target="_blank">Ver sus mejores goles</a>
   </li>
-</ul>
-<h3>Logro mas relevante</h3>
+</ul> <br>
+<h3>Logro mas relevante</h3> <br>
 <ul>
   <li>Campeón del Mundial 1998 con Francia</li>
 </ul>`,
@@ -617,75 +750,77 @@ function showPlayerInfo(playerName) {
     "Alfredo Di Stefano": `<h2>Alfredo Di Stéfano: La Saeta Rubia</h2>
 <p>
   Di Stéfano es una de las leyendas más grandes del fútbol, destacando por su versatilidad, liderazgo y habilidad goleadora.
-</p>
-<h3>Características Destacadas:</h3>
+</p> <br>
+<h3>Características Destacadas:</h3> <br>
 <ul>
   <li><strong>Versatilidad:</strong> Di Stéfano podía jugar en cualquier posición ofensiva con éxito. 
     <a href="https://www.youtube.com/watch?v=RLhLqTpJ5Fo" target="_blank">Ver sus mejores jugadas</a>
   </li>
-</ul>
-<h3>Logro mas relevante</h3>
+</ul> <br>
+<h3>Logro mas relevante</h3> <br>
 <ul>
   <li>5 veces campeón de la Copa de Europa con el Real Madrid</li>
+  <li> Títulos de Balon de Oro </li>
 </ul>`,
 
     "Luis Suarez": `<h2>Luis Suárez: El Pistolero</h2>
 <p>
   Luis Suárez es uno de los delanteros más prolíficos del fútbol moderno, conocido por su instinto goleador y su capacidad para crear jugadas.
-</p>
-<h3>Características Destacadas:</h3>
+</p> <br>
+<h3>Características Destacadas:</h3> <br>
 <ul>
   <li><strong>Finalización clínica:</strong> Suárez es letal dentro del área, capaz de marcar desde cualquier ángulo. 
     <a href="https://www.youtube.com/watch?v=edXLkxHkbBY" target="_blank">Ver sus mejores goles</a>
   </li>
-</ul>
-<h3>Logros mas relevante</h3>
+</ul> <br>
+<h3>Logros mas relevante</h3><br>
 <ul>
   <li>Campeón de la Champions League con el Barcelona</li>
   <li>Campeón de la Copa America con Uruguay</li>
 </ul>`,
 
     "Karim Benzema": `<h2>Karim Benzema: El Líder del Real Madrid</h2>
-<p>
+<p><br>
   Benzema es conocido por su inteligencia táctica, su capacidad para asistir y su habilidad goleadora.
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Visión y definición:</strong> Benzema es un delantero completo que puede tanto crear como finalizar jugadas. 
     <a href="https://www.youtube.com/watch?v=27vwxWc5YQU" target="_blank">Ver sus mejores goles y asistencias</a>
   </li>
-</ul>
-<h3>Logro mas relevante</h3>
+</ul> <br>
+<h3>Logros mas relevantes</h3> <br>
 <ul>
   <li>Múltiples títulos de la Champions League con el Real Madrid</li>
+  <li>Ganador del Balon de Oro en 2022</li>
 </ul>`,
 
-    "Samuel Eto'o": `<h2>Samuel Eto'o: El León Indomable</h2>
+    "Samuel Eto'o": `<h2>Samuel Eto'o: El León Indomable</h2> <br>
 <p>
   Eto'o es uno de los mejores delanteros africanos de todos los tiempos, conocido por su velocidad, poder físico y capacidad goleadora.
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Velocidad y fuerza:</strong> Eto'o era temido por su capacidad para romper defensas con su velocidad y potencia. 
     <a href="https://www.youtube.com/watch?v=w_Ncb_6w0ls" target="_blank">Ver sus mejores goles</a>
   </li>
-</ul>
-<h3>Logro mas relevante</h3>
+</ul> <br>
+<h3>Logro mas relevante</h3> <br>
 <ul>
   <li>Campeón de la Champions League con el Barcelona e Inter de Milán</li>
 </ul>`,
 
-    "Ruud Gullit": `<h2>Ruud Gullit: El Líder Holandés</h2>
+    "Ruud Gullit": `<h2>Ruud Gullit: El Líder Holandés</h2> <br>
 <p>
   Gullit es conocido por su versatilidad, liderazgo y capacidad técnica, siendo uno de los jugadores más completos de su generación.
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Versatilidad:</strong> Gullit podía jugar en varias posiciones, siempre aportando calidad y presencia física. 
     <a href="https://www.youtube.com/watch?v=FDQlsrJ77Fo" target="_blank">Ver su estilo de juego</a>
   </li>
-</ul>
-<h3>Logro mas relevante</h3>
+</ul> <br>
+<h3>Logro mas relevante</h3> <br>
 <ul>
   <li>Campeón de la Eurocopa 1988 con Holanda</li>
 </ul>`,
@@ -693,134 +828,134 @@ function showPlayerInfo(playerName) {
     "Luka Modric": `<h2>Luka Modrić: El Mago Croata</h2>
 <p>
   Luka Modrić es uno de los mejores centrocampistas del fútbol moderno, conocido por su capacidad de pase, visión de juego y control del ritmo del partido.
-</p>
-<h3>Características Destacadas:</h3>
+</p> <br>
+<h3>Características Destacadas:</h3> <br>
 <ul>
   <li><strong>Visión y distribución:</strong> Modrić destaca por su precisión en los pases largos y cortos, y su capacidad para controlar el ritmo del partido. 
     <a href="https://www.youtube.com/watch?v=htWxYlUZ6fA" target="_blank">Ver sus mejores asistencias</a>
-  </li>
+  </li> <br>
   <li><strong>Capacidad defensiva:</strong> A pesar de su estatura, Modrić tiene una gran capacidad para recuperar balones en el medio campo. 
     <a href="https://www.youtube.com/watch?v=zmlExZt_jMk" target="_blank">Ver sus recuperaciones y jugadas defensivas</a>
   </li>
-</ul>
-<h3>Logros mas relevantes</h3>
+</ul> <br>
+<h3>Logros mas relevantes</h3> <br>
 <ul>
   <li>Balón de Oro en 2018</li>
   <li>Campeón de la Champions League con el Real Madrid en varias ocasiones</li>
   <li>Subcampeón del Mundial 2018 con Croacia</li>
 </ul>`,
 
-    "Xavi Hernandez": `<h2>Xavi Hernández: El Cerebro del Barcelona</h2>
+    "Xavi Hernandez": `<h2>Xavi Hernández: El Cerebro del Barcelona</h2> <br>
 <p>
   Xavi Hernández es uno de los mejores centrocampistas de todos los tiempos, conocido por su precisión en los pases y su capacidad para controlar el juego desde el medio campo.
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Pases precisos:</strong> Xavi es famoso por su capacidad para mantener la posesión y realizar pases precisos en cualquier situación. 
     <a href="https://www.youtube.com/watch?v=qQtFbbVAbJY" target="_blank">Ver sus mejores pases</a>
-  </li>
+  </li> <br>
   <li><strong>Control del juego:</strong> Xavi es un maestro en la organización del juego, manteniendo el equipo siempre en movimiento. 
     <a href="https://www.youtube.com/watch?v=XMhlfQ2zQ9A" target="_blank">Ver su control en el medio campo</a>
   </li>
-</ul>
-<h3>Logros mas relevantes</h3>
+</ul> <br>
+<h3>Logros mas relevantes</h3> <br>
 <ul>
   <li>Campeón del Mundo 2010 con España</li>
   <li>4 veces campeón de la Champions League con el Barcelona</li>
 </ul>`,
 
-    "Andrés Iniesta": `<h2>Andrés Iniesta: El Artista del Fútbol</h2>
+    "Andrés Iniesta": `<h2>Andrés Iniesta: El Artista del Fútbol</h2> <br>
 <p>
   Andrés Iniesta es conocido por su habilidad para driblar en espacios reducidos y su capacidad para marcar goles importantes, como el de la final del Mundial 2010.
-</p>
-<h3>Características Destacadas:</h3>
+</p> <br>
+<h3>Características Destacadas:</h3> <br>
 <ul>
   <li><strong>Regate y control:</strong> Iniesta es famoso por su capacidad para moverse con el balón en situaciones de presión. 
     <a href="https://www.youtube.com/watch?v=Tc8YASf7yXo" target="_blank">Ver sus mejores jugadas</a>
-  </li>
+  </li> <br>
   <li><strong>Visión de juego:</strong> Su capacidad para crear oportunidades y asistir a sus compañeros es única. 
     <a href="https://www.youtube.com/watch?v=Hwwg1xV5YJg" target="_blank">Ver sus asistencias</a>
   </li>
-</ul>
-<h3>Logros mas relevantes</h3>
+</ul> <br>
+<h3>Logros mas relevantes</h3> <br>
 <ul>
   <li>Campeón del Mundo 2010 con España</li>
   <li>Campeón de la Eurocopa 2008 y 2012</li>
   <li>4 veces campeón de la Champions League con el Barcelona</li>
 </ul>`,
 
-    "Kevin De Bruyne": `<h2>Kevin De Bruyne: El Motor del Manchester City</h2>
+    "Kevin De Bruyne": `<h2>Kevin De Bruyne: El Motor del Manchester City</h2> <br>
 <p>
   De Bruyne es uno de los mejores centrocampistas ofensivos del mundo, conocido por su capacidad para realizar pases filtrados, disparos de larga distancia y su visión de juego.
-</p>
-<h3>Características Destacadas:</h3>
+</p> <br>
+<h3>Características Destacadas:</h3> <br>
 <ul>
   <li><strong>Pases precisos:</strong> De Bruyne es conocido por sus asistencias largas y sus pases filtrados, que rompen las defensas rivales. 
     <a href="https://www.youtube.com/watch?v=VeXzmC9CWhU" target="_blank">Ver sus mejores asistencias</a>
-  </li>
+  </li> <br>
   <li><strong>Disparo de larga distancia:</strong> Su capacidad para disparar desde fuera del área es temida por los rivales. 
     <a href="https://www.youtube.com/watch?v=qPmZhRNMzhU" target="_blank">Ver sus mejores goles</a>
   </li>
-</ul>
-<h3>Logros mas relevantes</h3>
+</ul> <br>
+<h3>Logros mas relevantes</h3> <br>
 <ul>
   <li>Campeón de la Premier League con el Manchester City en varias ocasiones</li>
   <li>Jugador del Año de la Premier League</li>
 </ul>`,
 
-    "Toni Kroos": `<h2>Toni Kroos: El Maestro del Medio Campo</h2>
+    "Toni Kroos": `<h2>Toni Kroos: El Maestro del Medio Campo</h2> <br>
 <p>
   Kroos es uno de los centrocampistas más técnicos del fútbol actual, conocido por su precisión en los pases y su capacidad para controlar el ritmo de los partidos.
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Pases precisos:</strong> Kroos tiene una de las tasas de precisión en pases más altas del fútbol moderno, lo que le permite dictar el ritmo del juego. 
     <a href="https://www.youtube.com/watch?v=IcCp1JmNkLw" target="_blank">Ver sus mejores pases</a>
-  </li>
+  </li> <br>
   <li><strong>Disparos de larga distancia:</strong> Su precisión en tiros lejanos, tanto en juego abierto como en tiros libres, es excelente. 
     <a href="https://www.youtube.com/watch?v=YjsJxxbXbFk" target="_blank">Ver sus mejores goles</a>
   </li>
-</ul>
-<h3>Logros mas relevantes </h3>
+</ul> <br>
+<h3>Logros mas relevantes: </h3> <br>
 <ul>
   <li>Campeón del Mundial 2014 con Alemania</li>
   <li>Múltiples títulos de la Champions League con el Real Madrid</li>
 </ul>`,
 
-    "Frank Lampard": `<h2>Frank Lampard: El Cerebro del Chelsea y de Inglaterra</h2>
+    "Frank Lampard": `<h2>Frank Lampard: El Cerebro del Chelsea y de Inglaterra</h2> <br>
 <p>
   Frank Lampard es considerado uno de los mediocampistas más destacados de la Premier League, conocido por su inteligencia en el campo y su impresionante habilidad para marcar goles desde media distancia.
-</p>
-<h3>Características Destacadas:</h3>
+</p> <br>
+<h3>Características Destacadas:</h3> <br>
 <ul>
   <li><strong>Llegada al área y disparo:</strong> Lampard era experto en unirse al ataque y convertir desde afuera del área. 
     <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores goles</a>
-  </li>
+  </li> <br>
   <li><strong>Visión de juego:</strong> Sus pases precisos lo hacían un maestro en la distribución. 
     <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver su visión en acción</a>
   </li>
-</ul>
-<h3>Logros más relevantes:</h3>
+</ul> <br>
+<h3>Logros más relevantes:</h3> <br>
 <ul>
   <li>Múltiples títulos de la Premier League con el Chelsea</li>
   <li>Ganador de la Champions League en 2012</li>
   <li>Mediocampista con más goles en la historia de la Premier League</li>
 </ul>`,
 
-    "David Beckham": `<h2>David Beckham: El Maestro de los Tiros Libres</h2>
+    "David Beckham": `<h2>David Beckham: El Maestro de los Tiros Libres</h2> <br>
 <p>
   David Beckham es uno de los futbolistas ingleses más icónicos, conocido por su precisión en los tiros libres y su capacidad para generar jugadas ofensivas desde las bandas.
-</p>
-<h3>Características Destacadas:</h3>
+</p> <br>
+<h3>Características Destacadas:</h3> <br>
 <ul>
   <li><strong>Precisión en los tiros libres:</strong> Beckham tenía una técnica impecable para colocar el balón en la red desde larga distancia.
     <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores tiros libres</a>
-  </li>
+  </li> <br>
   <li><strong>Visión y centros precisos:</strong> Su capacidad para asistir con centros milimétricos lo hacía un arma letal.
     <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores asistencias</a>
   </li>
-</ul>
-<h3>Logros más relevantes:</h3>
+</ul> <br>
+<h3>Logros más relevantes:</h3> <br>
 <ul>
   <li>Campeón de la Premier League con el Manchester United</li>
   <li>Ganador de la Champions League en 1999</li>
@@ -828,20 +963,20 @@ function showPlayerInfo(playerName) {
 </ul>
 `,
 
-    "René Higuita": `<h2>René Higuita: El Loco de la Portería</h2>
+    "René Higuita": `<h2>René Higuita: El Loco de la Portería</h2> <br>
 <p>
   René Higuita, apodado "El Loco", es uno de los porteros más carismáticos e innovadores del fútbol, famoso por sus arriesgadas jugadas y el estilo único del "Escorpión".
-</p>
+</p> <br>
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Estilo del "Escorpión":</strong> Higuita hizo famosa esta técnica al rechazar el balón con los talones.
     <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver el famoso escorpión</a>
-  </li>
+  </li> <br>
   <li><strong>Juego fuera del área:</strong> Su habilidad para salir y participar en jugadas ofensivas lo hizo un portero único.
     <a href="https://www.youtube.com/watch?v=XYZ" target="_blank">Ver sus mejores jugadas</a>
   </li>
-</ul>
-<h3>Logros más relevantes:</h3>
+</ul><br>
+<h3>Logros más relevantes:</h3> <br>
 <ul>
   <li>Campeón de la Copa Libertadores con Atlético Nacional</li>
   <li>Participación en múltiples Copas del Mundo con Colombia</li>
@@ -876,14 +1011,14 @@ function closeModal() {
 
 // Función para cerrar el modal
 function closeModal() {
-  const playerModal = document.getElementById('playerModal');
-  playerModal.style.display = 'none';  // Solo ocultar el modal sin eliminar contenido
+  const playerModal = document.getElementById("playerModal");
+  playerModal.style.display = "none"; // Solo ocultar el modal sin eliminar contenido
 }
 
 // Asignar los eventos de clic a los jugadores
-document.querySelectorAll('.content div').forEach(playerDiv => {
-  playerDiv.addEventListener('click', function () {
-    const playerName = this.querySelector('footer h3').innerText;  // Obtener el nombre del jugador
-    showPlayerInfo(playerName);  // Mostrar la información del jugador
+document.querySelectorAll(".content div").forEach((playerDiv) => {
+  playerDiv.addEventListener("click", function () {
+    const playerName = this.querySelector("footer h3").innerText; // Obtener el nombre del jugador
+    showPlayerInfo(playerName); // Mostrar la información del jugador
   });
 });
