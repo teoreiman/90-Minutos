@@ -977,6 +977,10 @@ function ocultarPantallas() {
 
 function mostrarPantalla(id) {
   ocultarPantallas();
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
   const pantalla = document.getElementById(id);
   if (pantalla) {
     if (id === "jugadoresInfo") {
