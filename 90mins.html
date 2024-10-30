@@ -39,38 +39,39 @@
 <div id="home" class="pantalla" style="display: block;">
 
   <h2>NOTICIAS RECIENTES</h2>
-  <div class="noticias pantalla">
+  <div class="noticias pantalla" id="noticiasPantalla">
     <section>
-      <span></span>
-      <p>Noticia</p>
+      <span><img src="https://assets.goal.com/images/v3/bltb99cc20aae149e8d/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202024-10-22T070043.331.png?auto=webp&format=pjpg&width=3840&quality=60" > </span>
+      <p>SONRIE LA PELOTA: Neymar ha vuelto a las canchas despues de 367 dias de lesion</p>
     </section>
     <section>
-      <span></span>
-      <p>Noticia</p>
+      <span><img src="https://ichef.bbci.co.uk/ace/standard/3840/cpsprodpb/2700/live/0cfb5290-6460-11ef-a7d8-61cd67f3fb31.jpg"></span>
+      <p>HOMBRE RECORD: CR7 llego a los 907 goles totales en su carrera</p>
     </section>
     <section>
-      <span></span>
-      <p>Noticia</p>
+      <span><img src="https://www.infobae.com/resizer/v2/7WB6L7TY4WRXBUUORAMPCIR4MI.jpg?auth=317db0263cdd42bb76987dd014ee451d473d93e4446038680afb2f3b429cda30&smart=true&width=350&height=263&quality=85"></span>
+      <p>EL MEJOR DEL MUNDO: Rodri ganador del Balón de Oro</p>
     </section>
     <section>
-      <span></span>
-      <p>Noticia</p>
+      <span><img src="https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2024-10/Deyverson%202%2010222024.jpg?h=e1195846&itok=b1C2k2oc"></span>
+      <p>COPA LIBERTADORES: Miniero elimino a River en la semi-final, empatando 0-0 en el Monumental, pero debido al resultado de la ida en el Mineirao a favor del conjunto brasilero (3-0)</p>
     </section>
     <section>
-      <span></span>
-      <p>Noticia</p>
+      <span> <img src="https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2024-10/Robert%20Lewandowski%20Barcelona%20vs.%20Real%20Madrid%20102624.jpg?h=1d4b4ebd&itok=Gnfg38MD"></span>
+      <p>PALIZA CULÉ: El Barcelona le gano 0-4 al Real Madrid en el Santiago Bernabéu y quedo puntero en LALIGA</p>
     </section>
   </div>
 
   <style>
     .noticias {
-      width: 100vw;
       height: auto;
       display: grid;
       grid-template-columns: repeat(4, 20%);
       grid-template-rows: repeat(2, 10em);
       column-gap: 1.5em;
       row-gap: .7em;
+      margin-top: 10em;
+      justify-content: center;
     }
 
     .noticias > section {
@@ -88,11 +89,14 @@
       grid-row: span 2;
     }
 
-    .noticias > section > span /* FIXME: Teo crack acordate de cambairlo por una imagen TODO:*/ {
+    .noticias > section > span{
       display: block;
       width: 95%;
-      height: 2em;
-      background: red;
+    }
+    .noticias > section > span > img{
+      height: auto;
+      width: 80%;
+      margin-inline: auto;
     }
 
   </style>

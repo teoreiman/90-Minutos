@@ -977,6 +977,7 @@ function ocultarPantallas() {
 
 function mostrarPantalla(id) {
   ocultarPantallas();
+
   window.scrollTo({
     top: 0,
     behavior: "smooth",
@@ -994,8 +995,3 @@ function mostrarPantalla(id) {
 document.getElementById("jugadoresInfo").addEventListener("click", function () {
   mostrarPantalla("jugadoresInfo");
 });
-
-window.onload = function () {
-  ocultarPantallas();
-  mostrarPantalla("home");
-};
