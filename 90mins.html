@@ -1205,13 +1205,13 @@
       </section>
           </section> <br>
       <section>
-        <h1>Mejores GOLES de las Copas del Mundo⚽⚽</h1>
+        <br> <h3 class="ttlWC">Mejores GOLES de las Copas del Mundo⚽⚽</h3>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/VLyJLp7kH1A?si=hb2bGRMeUZXSM4uH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </section>
     </div>
 
     <div id="SeleccionesNacionales" class="pantalla" style="display:none"> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-      <h2>Selecciones Nacionales</h2> <br> <br>
+ <br> <br>
       <p>
  
         <h2>Brasil (BRA)</h2>
@@ -1754,17 +1754,15 @@
 </body>
   <script src="90mins.js"></script>
   <script src="jugadores.js"></script>
-  <button onclick="irAPagina('pagina2.html')">Ir a Página 2</button>
 <script>
 function irAPagina(url) {
     window.location.href = url;
-    window.scrollTo(0, 0);  // Asegura que comience desde el tope
-} </script>
-
-<button onclick="irAPaginaConScroll('pagina2.html')">Ir a Página 2</button>
+    window.scrollTo(0, 0); 
+} 
+</script>
 <script>
 function irAPaginaConScroll(url) {
-    localStorage.setItem('scrollPos', window.scrollY); // Guarda la posición de scroll
+    localStorage.setItem('scrollPos', window.scrollY);
     window.location.href = url;
 }
 </script>
@@ -1773,11 +1771,9 @@ function irAPaginaConScroll(url) {
   document.addEventListener("DOMContentLoaded", function() {
       const scrollPos = localStorage.getItem('scrollPos');
       if (scrollPos) {
-          window.scrollTo(0, parseInt(scrollPos, 10)); // Restaura la posición de scroll
-          localStorage.removeItem('scrollPos'); // Limpia después de usar
+          window.scrollTo(0, parseInt(scrollPos, 10)); 
+          localStorage.removeItem('scrollPos'); 
       }
   });
   </script>
-  
-
 </html>
