@@ -150,7 +150,9 @@ button:hover {
   background-color: rgb(255, 136, 0);
   transition: 0,1s ease;
   transform: scale(1.15);
+  transition: 0.3s;
 }
+
 #botones > button {
 width: 107px;
 height: 100px;
@@ -164,6 +166,30 @@ height: 100px;
   transition: background-color 0.3s;
 }
 
+.LIB{
+  color: rgb(175, 152, 20);
+}
+
+.ELCLASICO{
+  color: #a71b1b;
+}
+
+.CR7{
+  color: red;
+}
+
+.RODRI{
+  color: goldenrod;
+}
+
+.NEY{
+  color: #0056b3;
+}
+
+.SERIEA{
+  color: green;
+  margin-top: 2%;
+}
 
 .boton:hover, .boton.seleccionado {
   background-color: #0056b3;
