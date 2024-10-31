@@ -375,6 +375,29 @@ function showPlayerInfo(playerName) {
   <li>UEFA Champions League con el FC Barcelona en 2015</li>
 </ul>`,
 
+"Edwin Van der Sar": `<h2>Edwin Van der Sar: El Guardián Holandés de la Historia</h2>
+<p>
+  Edwin Van der Sar es ampliamente reconocido como uno de los mejores porteros de su generación y una leyenda en el fútbol europeo, especialmente famoso por su tiempo en el Manchester United y el Ajax.
+</p> <br>
+
+<h3>Características Destacadas:</h3>
+<ul>
+  <li><strong>Reflejos impresionantes:</strong> Van der Sar tenía una gran habilidad para reaccionar rápidamente ante disparos a corta distancia, convirtiéndose en un seguro de vida para su equipo. 
+    <a href="https://www.youtube.com/watch?v=link1" target="_blank">Ver sus mejores atajadas</a>
+  </li>
+  <li><strong>Experiencia y liderazgo:</strong> Su presencia en el campo inspiraba confianza, y fue un líder natural tanto en el Ajax como en el Manchester United.
+    <a href="https://www.youtube.com/watch?v=link2" target="_blank">Ver su liderazgo en acción</a>
+  </li>
+</ul> <br>
+
+<h3>Logros más relevantes:</h3>
+<ul>
+  <li>Campeón de la Champions League con el Ajax y el Manchester United</li>
+  <li>Múltiples títulos de liga en la Premier League y la Eredivisie</li>
+  <li>Record de más minutos sin recibir goles en la Premier League</li>
+</ul>`,
+
+
     "Kylian Mbappé": `<h2>Kylian Mbappé: La Joya del Fútbol Francés</h2>
 <p>
   Mbappé es una de las jóvenes estrellas más brillantes del fútbol mundial, destacando por su velocidad y capacidad de definición.
