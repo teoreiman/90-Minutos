@@ -312,17 +312,14 @@ font-size: auto;
   justify-content: center;
 }
 
-.image > img {
-  width: auto;
-  height: 100%;
+.Sponsors > img:hover{
+transform: scale(1.18);
+transition: 0.5s;
 }
 
-footer {
-  height: 20%;
-  background: #7c7c7c;
-  display: grid;
-  place-content: center;
-  
+.Sponsors > img{
+  justify-content: space-between;
+  align-items: center;
 }
 
 .image:hover{
