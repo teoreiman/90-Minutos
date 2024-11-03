@@ -1032,16 +1032,14 @@ function closeModal() {
   });
 }
 
-// Función para cerrar el modal
 function closeModal() {
   const playerModal = document.getElementById("playerModal");
-  playerModal.style.display = "none"; // Solo ocultar el modal sin eliminar contenido
+  playerModal.style.display = "none";
 }
 
-// Asignar los eventos de clic a los jugadores
 document.querySelectorAll(".content div").forEach((playerDiv) => {
   playerDiv.addEventListener("click", function () {
-    const playerName = this.querySelector("footer h3").innerText; // Obtener el nombre del jugador
-    showPlayerInfo(playerName); // Mostrar la información del jugador
+    const playerName = this.querySelector("footer h3").innerText; 
+    showPlayerInfo(playerName);
   });
 });
