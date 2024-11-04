@@ -379,12 +379,62 @@ transition: 0.5s;
   border: 1px solid black;
 }
 
-section:hover{
+.n1:hover{
   transform: scale(1.05);
   transition: 0.5s;
 }
 
-section{
+.n1{
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.n2:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.n2{
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.n3:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.n3{
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.n4:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.n4{
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.n5:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.n5{
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.n6:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.n6{
   transform: scale(1);
   transition: 0.5s;
 }
