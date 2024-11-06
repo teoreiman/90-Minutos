@@ -7,6 +7,17 @@
   field-sizing: 125%;
 }
 
+.minutos{
+  color: rgb(0, 0, 0);
+}
+
+button{
+  border-radius: 10%;
+  max-height: 80%;
+  transform: scale(1);
+  transition: 0.5s;
+}
+
 #jugadoresInfo{
   display: flex;
   justify-content: space-between;
@@ -19,7 +30,7 @@ html {
 }
 
 body {
-  background-color: #2f74a8;
+  background-color: rgb(129, 236, 125);
 }
 
 #logo{
@@ -42,7 +53,7 @@ body {
 #navbar{
   display: flex;
   justify-content: space-between;
-  background: orange;
+  background: rgb(129, 236, 125);
   z-index: 102;
   position: fixed;
   top: 0px;
@@ -62,11 +73,11 @@ h3 {
 }
 
 #latimos:hover {
-  background-color: rgba(16, 135, 165, 0.87);
+  background-color: rgb(69, 214, 124);
 }
 
 #futbol_slogan:hover {
-  background-color: rgba(245, 77, 10, 0.658);
+  background-color: rgb(0, 255, 98);
 }
 
 .posiciones:hover {
@@ -91,7 +102,7 @@ body, html {
 #navbar {
   position: fixed; 
   width: 100%;
-  background: orange;
+  background: rgb(58, 180, 54);
   overflow: hidden;
 }
 
@@ -148,15 +159,19 @@ display: none;
 }
 
 button:hover {
-  background-color: rgb(255, 136, 0);
+  background-color: rgb(104, 206, 9);
   transition: 0,1s ease;
   transform: scale(1.15);
   transition: 0.3s;
 }
 
 #botones > button {
-width: 107px;
-height: 100px;
+    width: 107px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .boton {
   padding: 10px 20px;
@@ -345,9 +360,8 @@ transition: 0.5s;
     padding-left: 12%;
   }
 
-
 .marcas{
- color: white;
+  color: rgb(31, 126, 31);
 }
 
 .content > div:hover{
