@@ -364,6 +364,10 @@ transition: 0.5s;
   color: rgb(31, 126, 31);
 }
 
+.tabranking{
+  align-items: center;
+}
+
 .content > div:hover{
   transform: scale(1.06);
   background-color: orange;
@@ -389,7 +393,7 @@ transition: 0.5s;
   transition: 0.5s;
 }
 
-#tabranking > tbody > tr > td {
+.tabranking > tbody > tr > td {
   border: 1px solid black;
 }
 
