@@ -646,7 +646,7 @@ function showPlayerInfo(playerName) {
   <li>Múltiples títulos de la Champions League con el Barcelona</li>
 </ul>`,
 
-    Cafú: `<h2>Cafu: El Rey de los Laterales</h2> <br>
+    "Cafú": `<h2>Cafu: El Rey de los Laterales</h2> <br>
 <p>
   Cafu es uno de los mejores laterales derechos de todos los tiempos, conocido por su incansable energía y su capacidad tanto ofensiva como defensiva.
 </p> <br>
@@ -725,7 +725,7 @@ function showPlayerInfo(playerName) {
   <li> Varios titulos de Champions League con el Bayern Munich</li>
 </ul>`,
 
-    Marcelo: `<h2>Marcelo: El Lateral Ofensivo</h2>
+    "Marcelo": `<h2>Marcelo: El Lateral Ofensivo</h2>
 <p><br>
   Marcelo es conocido por su habilidad técnica y su capacidad para crear oportunidades ofensivas desde el lateral izquierdo.
 </p> <br>
