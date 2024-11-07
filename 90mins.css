@@ -102,7 +102,7 @@ body, html {
 #navbar {
   position: fixed; 
   width: 100%;
-  background: rgb(58, 180, 54);
+  background: rgb(70, 197, 65);
   overflow: hidden;
 }
 
@@ -266,10 +266,6 @@ font-weight: bold;
 text-align: center;
 }
 
-.jugadores:hover {
-  color: orange;
-}
-
 article {
 display: flex;
 margin-inline: 6em;
@@ -342,9 +338,6 @@ transition: 0.5s;
   align-items: center;
 }
 
-.image:hover{
-background-color: orange;
-}
 
 .Sponsors:hover {
 transform: scale(1.18);
@@ -370,10 +363,13 @@ transition: 0.5s;
 
 .content > div:hover{
   transform: scale(1.06);
-  background-color: orange;
   transition: 0.5s;
+  background-color: rgb(0, 255, 98)
 }
 
+.image:hover{
+background-color: rgb(25, 134, 67)
+}
 .escudos:hover{
   transform: scale(1.15);
   transition: 0.5s;
