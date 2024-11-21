@@ -1043,3 +1043,4 @@ document.querySelectorAll(".content div").forEach((playerDiv) => {
     showPlayerInfo(playerName);
   });
 });
+

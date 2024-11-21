@@ -18,6 +18,7 @@ window.onscroll = function () {
   mostrarBotonScroll();
 };
 
+
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
