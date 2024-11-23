@@ -13,6 +13,11 @@ function mostrarPantalla(seccion) {
   }
 }
 
+document.getElementById('loader').addEventListener('animationend', function() {
+  this.classList.add('hidden');
+});
+
+
 window.onscroll = function () {
   toggleStickyNavbar();
   mostrarBotonScroll();
@@ -68,6 +73,8 @@ document.querySelectorAll("button[data-target]").forEach((button) => {
     }
   });
 });
+
+
 
 function showPlayerInfo(playerName) {
   const playerInfo = {

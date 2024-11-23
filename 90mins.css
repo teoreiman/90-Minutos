@@ -510,6 +510,11 @@ background-color: rgb(25, 134, 67)
   animation: entrada .2s ease-out forwards;
 }
 
+.hidden {
+  display: none;
+}
+
+
 .salida {
   animation: entrada .2s ease-out reverse;
 }
@@ -543,7 +548,6 @@ background-color: rgb(25, 134, 67)
   0% {
     opacity: 1;
   }
-
   100% {
     opacity: 0;
   }
