@@ -1,5 +1,30 @@
 function showPlayerInfo(playerName) {
   const playerInfo = {
+    
+    "Oliver Kahn": `<h2>Oliver Kahn: El Titán del Bayern Múnich</h2>
+<p>
+  Oliver Kahn es considerado uno de los porteros más icónicos y dominantes en la historia del fútbol, conocido por su intensidad, liderazgo y determinación en el campo.
+</p> <br>
+
+<h3>Características Destacadas:</h3>
+<ul>
+  <li><strong>Intensidad y pasión:</strong> Kahn era famoso por su carácter fuerte y su habilidad para motivar a sus compañeros, incluso en los momentos más difíciles. 
+    <a href="https://www.youtube.com/watch?v=link1" target="_blank">Ver su intensidad en el campo</a>
+  </li>
+  <li><strong>Reflejos excepcionales:</strong> Sus atajadas acrobáticas y su capacidad para detener disparos imposibles lo hicieron una leyenda en el arco. 
+    <a href="https://www.youtube.com/watch?v=link2" target="_blank">Ver sus mejores atajadas</a>
+  </li>
+</ul> <br>
+
+<h3>Logros más relevantes:</h3>
+<ul>
+  <li>Campeón de la Champions League 2001 con el Bayern Múnich</li>
+  <li>Ganador de múltiples títulos de la Bundesliga</li>
+  <li>Balón de Oro al Mejor Jugador del Mundial 2002</li>
+  <li>Figura clave en la selección alemana durante una década</li>
+</ul>`,
+
+    
     "Manuel Neuer": `<h2>Manuel Neuer: El Guardián del Bayern Múnich y de Alemania</h2>
 <p>
   Manuel Neuer es considerado uno de los mejores porteros de la historia del fútbol, reconocido por su estilo de juego moderno como "portero-líbero". No solo se destaca por sus habilidades bajo los palos, sino también por su capacidad para influir en la construcción de jugadas desde el fondo.
