@@ -188,23 +188,29 @@ function showPlayerInfo(playerName) {
   <li>Múltiples títulos de la Champions League con el Barcelona</li>
 </ul>`,
 
-    "Juan Román Riquelme": `<h2>Juan Román Riquelme: El Cerebro del Fútbol Argentino</h2>
+    "Juan Román Riquelme": `<h2>Juan Román Riquelme: El Cerebro del Fútbol Argentino</h2> <br>
 <p>
   Riquelme es uno de los jugadores más talentosos y creativos de Argentina, famoso por su capacidad de controlar el ritmo del partido y sus pases precisos. <br>
-</p>
-<h3>Características Destacadas:</h3> <br>
+</p> <br>
+<h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Control del balón:</strong> Riquelme destacaba por su habilidad para mantener la posesión bajo presión. 
-    <a href="https://www.youtube.com/watch?v=tefdNFcoDlA" target="_blank">Ver su dominio del balón</a> <br>
-  </li>
+    <a href="https://www.youtube.com/watch?v=tefdNFcoDlA" target="_blank">Ver su dominio de la pelota</a>
+  </li> <br>
   <li><strong>Pases precisos:</strong> Su visión y precisión en los pases lo convirtieron en un excelente organizador de juego.
     <a href="https://www.youtube.com/watch?v=gztdDWLTBdA" target="_blank">Ver sus mejores asistencias</a>
-  </li>
-</ul>
-<h3>Logros mas relevantes:</h3> <br>
+  </li> <br>
+  <li><strong>Tiros Libres:</strong> Riquelme destacaba por su capacidad para hacer tiros libres con precisión, ya que contaba con una de las mejores pegadas de la historia de los tiros libres.
+    <a href="https://www.youtube.com/watch?v=pVpRWcZUos4&pp=ygUgbWVqb3JlcyB0aXJvcyBsaWJyZXMgZGUgcmlxdWVsbWU%3D" target="_blank">Ver sus mejores tiros libres</a>
+  </li> <br>
+A continuacion se presentan algunas destacadas de Riquelme, como: tiros libres, jugadas con pelota, pases, etc.
+  <a href="https://youtu.be/LegII79VtUM" target="_blank">Que viva el futbol, ROMAN</a>
+</ul> <br>
+<h3>Logros mas relevantes:</h3>
 <ul>
   <li>Campeón de la Copa Libertadores con Boca Juniors</li>
   <li>Finalista de la Champions League con el Villarreal</li>
+  <li>Campeón de la Copa Intercontinental del 2000 contra el Real Madrid</li>
 </ul>`,
 
     "Marco Van Basten": `<h2>Marco van Basten: El Elegante Goleador</h2>
@@ -912,7 +918,7 @@ function showPlayerInfo(playerName) {
   <li>4 veces campeón de la Champions League con el Barcelona</li>
 </ul>`,
 
-    "Andrés Iniesta": `<h2>Andrés Iniesta: El Artista del Fútbol</h2> <br>
+    "Andrés Iniesta": `<h2>Andrés Iniesta: El Cerebro del Fútbol</h2> <br>
 <p>
   Andrés Iniesta es conocido por su habilidad para driblar en espacios reducidos y su capacidad para marcar goles importantes, como el de la final del Mundial 2010.
 </p> <br>
