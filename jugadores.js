@@ -196,7 +196,6 @@ function showPlayerInfo(playerName) {
 <h3>Características Destacadas:</h3>
 <ul>
   <li><strong>Presencia y liderazgo:</strong> Su tamaño y voz dominante inspiraban confianza a su defensa. 
-    <a href="https://www.youtube.com/watch?v=link1" target="_blank">Ver su liderazgo en acción</a>
   </li>
   <li><strong>Reflejos extraordinarios:</strong> Schmeichel podía detener disparos a quemarropa y mantener a su equipo en el partido. 
     <a href="https://www.youtube.com/watch?v=link2" target="_blank">Ver sus mejores atajadas</a>
