@@ -188,6 +188,28 @@ function showPlayerInfo(playerName) {
   <li>Múltiples títulos de la Champions League con el Barcelona</li>
 </ul>`,
 
+"Peter Schmeichel": `<h2>Peter Schmeichel: El Titán Danés del Arco</h2>
+<p>
+  Peter Schmeichel es considerado uno de los mejores porteros de todos los tiempos, famoso por su presencia intimidante, liderazgo y habilidad para realizar paradas imposibles.
+</p> <br>
+
+<h3>Características Destacadas:</h3>
+<ul>
+  <li><strong>Presencia y liderazgo:</strong> Su tamaño y voz dominante inspiraban confianza a su defensa. 
+    <a href="https://www.youtube.com/watch?v=link1" target="_blank">Ver su liderazgo en acción</a>
+  </li>
+  <li><strong>Reflejos extraordinarios:</strong> Schmeichel podía detener disparos a quemarropa y mantener a su equipo en el partido. 
+    <a href="https://www.youtube.com/watch?v=link2" target="_blank">Ver sus mejores atajadas</a>
+  </li>
+</ul> <br>
+
+<h3>Logros más relevantes:</h3>
+<ul>
+  <li>Campeón de la Eurocopa 1992 con Dinamarca</li>
+  <li>Ganador de la Liga de Campeones 1999 con el Manchester United</li>
+  <li>Múltiples títulos de liga en Inglaterra</li>
+</ul>`,
+
     "Juan Román Riquelme": `<h2>Juan Román Riquelme: El Cerebro del Fútbol Argentino</h2> <br>
 <p>
   Riquelme es uno de los jugadores más talentosos y creativos de Argentina, famoso por su capacidad de controlar el ritmo del partido y sus pases precisos. <br>
@@ -197,7 +219,7 @@ function showPlayerInfo(playerName) {
   <li><strong>Control del balón:</strong> Riquelme destacaba por su habilidad para mantener la posesión bajo presión. 
     <a href="https://www.youtube.com/watch?v=tefdNFcoDlA" target="_blank">Ver su dominio de la pelota</a>
   </li> <br>
-  <li><strong>Pases precisos:</strong> Su visión y precisión en los pases lo convirtieron en un excelente organizador de juego.
+  <li><strong>Pases precisos:</strong> Su visión y precisión en los pases lo volvieron en un excelente organizador de juego.
     <a href="https://www.youtube.com/watch?v=gztdDWLTBdA" target="_blank">Ver sus mejores asistencias</a>
   </li> <br>
   <li><strong>Tiros Libres:</strong> Riquelme destacaba por su capacidad para hacer tiros libres con precisión, ya que contaba con una de las mejores pegadas de la historia de los tiros libres.
